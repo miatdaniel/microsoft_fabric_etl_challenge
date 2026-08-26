@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "notebook_country_revenue",
+    "description": "country revenue"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bb8a875c-3d3b-84c8-4dcf-7160649cff45"
+  }
+}

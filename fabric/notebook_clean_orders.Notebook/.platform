@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "notebook_clean_orders",
+    "description": "notebook used to clean data for orders table"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "fc048549-4c3c-95dc-418b-8b6b49309164"
+  }
+}

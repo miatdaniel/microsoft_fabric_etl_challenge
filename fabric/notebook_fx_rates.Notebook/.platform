@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "notebook_fx_rates",
+    "description": "notebook for exchange rates"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "91a319ac-f270-a6d9-4b45-991213bf1006"
+  }
+}

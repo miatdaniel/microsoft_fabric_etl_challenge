@@ -1,0 +1,248 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "91a319ac-f270-a6d9-4b45-991213bf1006",
+          "workspaceId": "00000000-0000-0000-0000-000000000000"
+        },
+        "externalReferences": {
+          "connection": "5c8ee3d0-74ef-46b3-afbf-d2e8c33bf1d1"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 2,
+          "retryIntervalInSeconds": 90,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "run_fx_rates",
+        "dependsOn": []
+      },
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "b041356b-f521-8a7f-44fb-41b628f0726e",
+          "workspaceId": "00000000-0000-0000-0000-000000000000"
+        },
+        "externalReferences": {
+          "connection": "5c8ee3d0-74ef-46b3-afbf-d2e8c33bf1d1"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "run_customer_spend",
+        "dependsOn": [
+          {
+            "activity": "run_fx_rates",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "bb8a875c-3d3b-84c8-4dcf-7160649cff45",
+          "workspaceId": "00000000-0000-0000-0000-000000000000"
+        },
+        "externalReferences": {
+          "connection": "5c8ee3d0-74ef-46b3-afbf-d2e8c33bf1d1"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "run_country_revenue",
+        "dependsOn": [
+          {
+            "activity": "run_customer_spend",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "MicrosoftTeams",
+        "typeProperties": {
+          "content": "<p>Your pipeline_daily_refresh failed. Please check monitoring via Fabric</p>",
+          "teamId": "48cf411d-eefa-4a53-a81e-f18ae5fb726e",
+          "channelId": "19:wpGfsEPvlhVtZQ8R60UsEGTKFXeABIaCVmPVuzIkRmA1@thread.tacv2",
+          "operationType": "SendMessageInChannel",
+          "subject": "pipeline_daily_refresh alert failure"
+        },
+        "externalReferences": {
+          "connection": "92804608-7805-4ba4-99dc-c40608272b8f"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "run_fx_rates_failure_notification",
+        "dependsOn": [
+          {
+            "activity": "run_fx_rates",
+            "dependencyConditions": [
+              "Failed"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "MicrosoftTeams",
+        "typeProperties": {
+          "content": "<p>Your pipeline_daily_refresh failed. Please check monitoring via Fabric</p>",
+          "teamId": "48cf411d-eefa-4a53-a81e-f18ae5fb726e",
+          "channelId": "19:wpGfsEPvlhVtZQ8R60UsEGTKFXeABIaCVmPVuzIkRmA1@thread.tacv2",
+          "operationType": "SendMessageInChannel",
+          "subject": "pipeline_daily_refresh alert failure"
+        },
+        "externalReferences": {
+          "connection": "92804608-7805-4ba4-99dc-c40608272b8f"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "run_customer_spend_failure_notification",
+        "dependsOn": [
+          {
+            "activity": "run_customer_spend",
+            "dependencyConditions": [
+              "Failed"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "MicrosoftTeams",
+        "typeProperties": {
+          "content": "<p>Your pipeline_daily_refresh failed. Please check monitoring via Fabric</p>",
+          "teamId": "48cf411d-eefa-4a53-a81e-f18ae5fb726e",
+          "channelId": "19:wpGfsEPvlhVtZQ8R60UsEGTKFXeABIaCVmPVuzIkRmA1@thread.tacv2",
+          "operationType": "SendMessageInChannel",
+          "subject": "pipeline_daily_refresh alert failure"
+        },
+        "externalReferences": {
+          "connection": "92804608-7805-4ba4-99dc-c40608272b8f"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "run_data_country_revenue_failure_notification",
+        "dependsOn": [
+          {
+            "activity": "run_country_revenue",
+            "dependencyConditions": [
+              "Failed"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "813dce1a-fbc6-ad1a-4c26-a46926f35041",
+          "workspaceId": "00000000-0000-0000-0000-000000000000"
+        },
+        "externalReferences": {
+          "connection": "5c8ee3d0-74ef-46b3-afbf-d2e8c33bf1d1"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "run_data_quality_check",
+        "dependsOn": [
+          {
+            "activity": "run_country_revenue",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "MicrosoftTeams",
+        "typeProperties": {
+          "content": "<p>Your pipeline_daily_refresh failed. Please check monitoring via Fabric</p>",
+          "teamId": "48cf411d-eefa-4a53-a81e-f18ae5fb726e",
+          "channelId": "19:wpGfsEPvlhVtZQ8R60UsEGTKFXeABIaCVmPVuzIkRmA1@thread.tacv2",
+          "operationType": "SendMessageInChannel",
+          "subject": "pipeline_daily_refresh alert failure"
+        },
+        "externalReferences": {
+          "connection": "92804608-7805-4ba4-99dc-c40608272b8f"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "run_data_quality_check_failure_notification",
+        "dependsOn": [
+          {
+            "activity": "run_data_quality_check",
+            "dependencyConditions": [
+              "Failed"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "MicrosoftTeams",
+        "typeProperties": {
+          "content": "This is today's report (@{formatDateTime(utcnow(), 'yyyy-MM-dd')}): @{activity('run_data_quality_check').output.result.exitValue}",
+          "teamId": "48cf411d-eefa-4a53-a81e-f18ae5fb726e",
+          "channelId": "19:wpGfsEPvlhVtZQ8R60UsEGTKFXeABIaCVmPVuzIkRmA1@thread.tacv2",
+          "operationType": "SendMessageInChannel",
+          "subject": "Daily final data check report"
+        },
+        "externalReferences": {
+          "connection": "92804608-7805-4ba4-99dc-c40608272b8f"
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "send_daily_data_check_report",
+        "dependsOn": [
+          {
+            "activity": "run_data_quality_check",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

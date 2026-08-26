@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "notebook_orders_raw_profiling",
+    "description": "profiling raw data from orders"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0f1e85db-e4e5-afdd-457b-8f3b5f74e8c5"
+  }
+}

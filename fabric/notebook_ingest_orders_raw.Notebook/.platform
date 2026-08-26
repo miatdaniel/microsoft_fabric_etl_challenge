@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "notebook_ingest_orders_raw",
+    "description": "Ingest raw orders from https://jzozteoirwfczccltcdr.supabase.co/rest/v1/orders_raw"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "364ef664-df80-ab58-4b48-d3dbf7a92a06"
+  }
+}
