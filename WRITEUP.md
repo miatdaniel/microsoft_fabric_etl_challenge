@@ -29,7 +29,7 @@ For a *silent* failure — a job that "succeeds" but produces wrong numbers, or 
 
 **Tool:** GitHub Copilot (chat), used throughout — the code, SQL, pipeline, and this write-up.
 
-**Kept:** the overall approach (profile the data first, verify every step against the expected numbers), and the generated code/SQL once I had read and understood it.
+**Kept:** the overall approach (profile the data first, verify every step against the expected numbers), and the generated code/SQL once I had read it.
 
 **Changed or owned myself:**
 - Every cleaning **decision** was mine, checked against the real data (quarantine-not-delete, no-recovery, completed-only for spend, keeping €0/promo items).
