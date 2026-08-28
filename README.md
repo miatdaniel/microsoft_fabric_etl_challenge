@@ -1,49 +1,36 @@
 # Aqurate — Junior Data Engineer Challenge
 
-An end-to-end ETL pipeline built on **Microsoft Fabric**: pull orders from an API, clean them,
-pull daily FX rates, convert to EUR, and produce two reporting tables — refreshed daily.
+An end-to-end ETL pipeline built on **Microsoft Fabric**: pull orders from an API, clean them, pull daily FX rates, convert to EUR, and produce two reporting tables — refreshed daily.
+
+## What it does
+1. **Ingest** orders from the API into `orders_raw`.
+2. **Clean** them into `orders_clean` (bad rows moved to `orders_quarantine` with a reason).
+3. **Pull** daily EUR↔RON exchange rates into `fx_rates`.
+4. **Customer spend in EUR** → `customer_spend_eur`.
+5. **Country/category revenue** (Books + Electronics, > €40,000) → `country_category_revenue`.
+6. **Automate** — a daily pipeline refreshes the tables and posts a data-quality report to Teams.
 
 ## Architecture
+- **Storage:** one Fabric Lakehouse (`lh_orders`) holding all tables.
+- **Transforms:** Spark SQL in notebooks (cleaning + maths); Python only for the two API pulls.
+- **Orchestration:** a Fabric Data Pipeline (`pipeline_daily_refresh`) on a daily schedule.
 
-```
-Orders API ─▶ orders_raw ─▶ (clean + quarantine) ─▶ orders_clean ─┐
-FX API (frankfurter.dev) ─────────────────────────▶ fx_rates ─────┤
-                                                                  ├─▶ customer_spend_eur
-                                                                  └─▶ country_category_revenue
-A daily Data Pipeline runs the FX pull + the two tables + a data-quality check, with Teams alerts.
-```
-
-- **Storage:** one Fabric **Lakehouse** (`lh_orders`) holding all tables.
-- **Transforms:** Spark SQL in notebooks (cleaning + aggregation); a little Python only for the two API pulls.
-- **Orchestration:** a Fabric **Data Pipeline** (`pipeline_daily_refresh`) on a daily schedule.
-
-## Tables produced
-| Table | What it is |
+## Repo structure
+| Folder | Contents |
 |---|---|
-| `orders_raw` | raw orders pulled from the API (9,268 rows) |
-| `orders_clean` | cleaned orders (8,641 rows) |
-| `orders_quarantine` | bad rows removed during cleaning, with a reason (627 rows) |
-| `fx_rates` | daily EUR↔RON exchange rates |
-| `customer_spend_eur` | total EUR spend per customer (1,866 customers) |
-| `country_category_revenue` | Books+Electronics revenue by country, > €40,000 (RO, HU) |
+| `fabric/` | the Fabric items — notebooks, the lakehouse, and the pipeline |
+| `docs/` | short plain-language summary of each step |
+| `results/` | CSV exports of the output tables |
+| `screenshots/` | pipeline run, Teams report, daily schedule |
 
-## Notebooks (in `fabric/`)
-1. `notebook_ingest_orders_raw` — pull `orders_raw` from the API (Python, paginated).
-2. `notebook_orders_raw_profiling` — data profiling (read-only; run once).
-3. `notebook_clean_orders` — clean + quarantine + type conversion → `orders_clean`.
-4. `notebook_fx_rates` — pull EUR↔RON rates from frankfurter.dev → `fx_rates`.
-5. `notebook_customer_spend` — `customer_spend_eur`.
-6. `notebook_country_revenue` — `country_category_revenue`.
-7. `data_check_after_pipeline_run` — data-quality checks + report.
+## Results
+- **orders_raw** 9,268 → **orders_clean** 8,641 + **orders_quarantine** 627
+- **customer_spend_eur** — 1,866 customers, ≈ €713,984.79
+- **country_category_revenue** — RO €146,608.56, HU €40,823.50
 
-## Automation
-`pipeline_daily_refresh` runs daily:
-`fx_rates → customer_spend → country_revenue → data_quality_check → Teams report`,
-with a Teams failure alert on every step. (Ingest + cleaning run once — `orders_raw` is static.)
+## More detail
+- **[WRITEUP.md](WRITEUP.md)** — data issues & how handled, production monitoring, AI usage.
+- **[PROJECT_STORY.md](PROJECT_STORY.md)** — the full step-by-step story, decisions, and issues.
+- **[docs/](docs/)** — one short summary per step.
 
-## Results (latest run)
-- **customer_spend_eur:** 1,866 customers, ≈ **€713,984.79** total (completed orders only).
-- **country_category_revenue:** **RO €146,608.56**, **HU €40,823.50** (DE and BG fall below the €40k threshold).
-
-See `WRITEUP.md` for data issues, decisions, monitoring, and AI usage.
-See `results/` for CSV exports and `screenshots/` for pipeline + schedule proof.
+*Built with the help of GitHub Copilot; all decisions reviewed and verified.*
