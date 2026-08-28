@@ -104,7 +104,7 @@ It's a small addition, but it means the daily message shows the actual numbers, 
 
 ---
 
-## Results at a glance
+## Results
 
 - **orders_raw** 9,268 → **orders_clean** 8,641 + **orders_quarantine** 627 (reconciles)
 - **fx_rates** 24 rows (EUR + RON)
