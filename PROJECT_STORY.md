@@ -1,6 +1,6 @@
 # Aqurate — Junior Data Engineer Challenge — "Making the Pipeline — Behind the scenes"
 
-*A walkthrough of the whole build, in plain English.*
+*A walkthrough of the whole build*
 
 > **On AI usage:** the whole project — code, SQL, the pipeline, and this write-up — was built with **GitHub Copilot (chat)** as a pair-programmer. It suggested; I reviewed, decided, and verified. Where its first idea was wrong or over-complicated, I changed it.
 
