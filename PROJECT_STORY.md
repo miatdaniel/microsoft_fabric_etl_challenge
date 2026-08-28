@@ -14,7 +14,7 @@ A small but complete data pipeline: **ingest** orders from an API, **clean** the
 
 ## The stack, and why
 
-Everything runs in **Microsoft Fabric** — already had Fabric capacity enabled, and it keeps storage, notebooks, and scheduling in one place. It also runs both **SQL** and **Python**, so both skills are visible.
+Everything runs in **Microsoft Fabric** — already had Fabric capacity enabled, and it keeps storage, notebooks, and scheduling in one place. It also runs both **SQL** and **Python**.
 
 Inside Fabric I made a few choices:
 - **Lakehouse over Warehouse.** A Lakehouse keeps everything as Delta tables and lets me drive transforms from notebooks with Spark SQL — the natural fit when the logic lives in notebooks.
