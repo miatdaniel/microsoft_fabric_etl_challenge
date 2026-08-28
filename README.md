@@ -10,6 +10,8 @@ An end-to-end ETL pipeline built on **Microsoft Fabric**: pull orders from an AP
 5. **Country/category revenue** (Books + Electronics, > €40,000) → `country_category_revenue`.
 6. **Automate** — a daily pipeline refreshes the tables and posts a data-quality report to Teams.
 
+> See **[docs/tables.md](docs/tables.md)** for what each table contains (columns explained).
+
 ## Architecture
 - **Storage:** one Fabric Lakehouse (`lh_orders`) holding all tables.
 - **Transforms:** Spark SQL in notebooks (cleaning + maths); Python only for the two API pulls.
@@ -19,7 +21,7 @@ An end-to-end ETL pipeline built on **Microsoft Fabric**: pull orders from an AP
 | Folder | Contents |
 |---|---|
 | `fabric/` | the Fabric items — notebooks, the lakehouse, and the pipeline |
-| `docs/` | short plain-language summary of each step |
+| `docs/` | short plain-language summary of each step + a data dictionary (`tables.md`) |
 | `results/` | CSV exports of the output tables |
 | `screenshots/` | pipeline run, Teams report, daily schedule |
 
@@ -31,6 +33,7 @@ An end-to-end ETL pipeline built on **Microsoft Fabric**: pull orders from an AP
 ## More detail
 - **[WRITEUP.md](WRITEUP.md)** — data issues & how handled, production monitoring, AI usage.
 - **[PROJECT_STORY.md](PROJECT_STORY.md)** — the full step-by-step story, decisions, and issues.
+- **[docs/tables.md](docs/tables.md)** — data dictionary: every table and its columns.
 - **[docs/](docs/)** — one short summary per step.
 
 *Built with the help of GitHub Copilot; all decisions reviewed and verified.*
