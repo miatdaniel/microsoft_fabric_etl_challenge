@@ -1,0 +1,24 @@
+# results
+
+CSV exports of the pipeline's tables and data-quality checks, so you can see the numbers without opening Fabric.
+
+## Tables
+| File | What it is |
+|---|---|
+| `orders_raw_output.csv` | Raw orders exactly as ingested from the API, before any cleaning (one row per order line). |
+| `orders_clean_output.csv` | Cleaned orders — duplicates and bad rows removed, with a computed `line_total`. |
+| `orders_quarantine_output.csv` | Rows rejected during cleaning, each tagged with a `reject_reason` (e.g. duplicate row, invalid quantity). |
+| `fx_rates_results.csv` | Daily EUR↔RON exchange rates (24 rows, 2026-08-23 → 2026-09-03). |
+| `customer_spend_eur_output.csv` | Final deliverable — total spend in EUR per customer (1,866 customers). |
+| `country_revenue_output.csv` | Final deliverable — Books + Electronics revenue per country over €40,000 (RO €146,604.05, HU €40,822.63). |
+
+## Data-quality checks
+| File | What it shows |
+|---|---|
+| `data_check_1_output.csv` | FX coverage — rate row count and date range. |
+| `data_check_2_output.csv` | Customer count and grand total spend in EUR (1,866 / €713,962.55). |
+| `data_check_3_output.csv` | Country revenue for the two qualifying countries. |
+| `data_check_4_output.csv` | Null customer IDs and negative totals (both 0). |
+| `data_check_5_output.csv` | Orders with no matching FX rate (0). |
+
+See [../docs/tables.md](../docs/tables.md) for a full description of each column.
