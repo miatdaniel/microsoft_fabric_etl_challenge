@@ -23,7 +23,7 @@ Inside Fabric I made a few choices:
 
 I kept the code simple and readable on purpose: no heavy libraries, plain SQL, straightforward Python.
 
-**Naming conventions** (for consistency): lowercase, descriptive, prefixed by type. The Lakehouse is `lh_orders`; the notebooks are `notebook_ingest_orders_raw`, `notebook_clean_orders`, `notebook_fx_rates`, `notebook_customer_spend`, `notebook_country_revenue`, and `data_check_after_pipeline_run`; the pipeline is `pipeline_daily_refresh`; and the tables keep the exact names the brief asked for (`orders_raw`, `orders_clean`, etc.).
+**Naming conventions** (for consistency): lowercase, descriptive, prefixed by type. The Lakehouse is `lh_orders`; the notebooks are `notebook_ingest_orders_raw`, `notebook_clean_orders`, `notebook_fx_rates`, `notebook_customer_spend`, `notebook_country_revenue`, and `notebook_data_check_after_pipeline_run`; the pipeline is `pipeline_daily_refresh`; and the tables keep the exact names the brief asked for (`orders_raw`, `orders_clean`, etc.).
 
 ---
 
