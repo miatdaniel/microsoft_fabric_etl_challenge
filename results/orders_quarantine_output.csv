@@ -1,0 +1,628 @@
+category,channel,country,currency,customer_email,customer_id,fx_reference_date,order_id,order_ts,product_name,qty,sku,status,unit_price,reject_reason
+ORD10003,1329,customer1329@example.com,2026-02-20T18:57:55,completed,mobile_app,SKU-BK-002,The Pragmatic Programmer,Books,2,42.42,EUR,RO,2026-08-26,duplicate row
+ORD10058,364,customer364@example.com,2026-04-03T03:42:49,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,44.35,EUR,RO,2026-09-03,duplicate row
+ORD10131,1683,customer1683@example.com,2026-05-24T08:54:43,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,2,87.63,RON,RO,2026-08-31,duplicate row
+ORD10136,90,customer90@example.com,2026-06-27T03:24:21,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,36.09,RON,RO,2026-08-27,duplicate row
+ORD10182,1451,customer1451@example.com,10/05/2026 09:26,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,59.62,EUR,RO,2026-08-25,duplicate row
+ORD10257,1368,customer1368@example.com,1778832765,completed,marketplace,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,24.58,EUR,BG,2026-08-24,duplicate row
+ORD10306,1570,customer1570@example.com,2026-02-26T07:47:58,completed,web,SKU-EL-004,4K Action Camera,Electronics,1,187.5,EUR,RO,2026-08-24,duplicate row
+ORD10421,368,customer368@example.com,2026-05-13T11:56:01,completed,web,SKU-EL-004,4K Action Camera,Electronics,1,185.39,EUR,RO,2026-08-30,duplicate row
+ORD10426,1338,customer1338@example.com,16/01/2026 09:29,completed,mobile_app,SKU-BK-002,The Pragmatic Programmer,Books,1,45.51,EUR,RO,2026-08-24,duplicate row
+ORD10444,1784,customer1784@example.com,19/05/2026 03:22,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,1,43.09,EUR,DE,2026-08-23,duplicate row
+ORD10448,1038,customer1038@example.com,2026-05-21T16:30:00,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,1,61.23,EUR,DE,2026-09-02,duplicate row
+ORD10495,171,customer171@example.com,28/06/2026 09:48,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,38.43,RON,DE,2026-08-28,duplicate row
+ORD10526,1618,customer1618@example.com,2026-04-24T00:52:41,completed,marketplace,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,2,37.89,RON,RO,2026-09-03,duplicate row
+ORD10593,1751,customer1751@example.com,1768514771,completed,marketplace,SKU-BE-001,Vitamin C Serum 30ml,Beauty,3,22.97,EUR,DE,2026-08-25,duplicate row
+ORD10682,1386,customer1386@example.com,2026-01-07T18:30:08,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,30.3,EUR,RO,2026-09-02,duplicate row
+ORD10697,90,customer90@example.com,2026-04-06T14:20:36,completed,mobile_app,SKU-BK-001,Atomic Habits (RO ed.),Books,3,20.48,RON,BG,2026-08-24,duplicate row
+ORD10697,90,customer90@example.com,2026-04-06T14:20:36,completed,mobile_app,SKU-EL-002,USB-C Fast Charger 65W,Electronics,2,35.12,RON,BG,2026-08-24,duplicate row
+ORD10702,730,customer730@example.com,04/05/2026 17:35,completed,marketplace,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,59.25,EUR,HU,2026-08-26,duplicate row
+ORD10740,1194,customer1194@example.com,2026-02-22T08:28:03,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,2,48.15,EUR,RO,2026-08-23,duplicate row
+ORD10757,172,customer172@example.com,2026-01-30T11:37:32,completed,web,SKU-EL-004,4K Action Camera,Electronics,2,190.45,EUR,DE,2026-08-27,duplicate row
+ORD10764,1510,customer1510@example.com,2026-06-16T05:53:37,completed,mobile_app,SKU-EL-001,Wireless Earbuds X2,Electronics,3,79.71,EUR,RO,2026-08-26,duplicate row
+ORD10807,304,customer304@example.com,1773253311,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,1,78.02,RON,RO,2026-08-24,duplicate row
+ORD10808,1163,customer1163@example.com,2026-05-02T21:38:46,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,2,20.68,EUR,RO,2026-08-24,duplicate row
+ORD10811,110,customer110@example.com,2026-04-17T21:41:08,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,45.59,EUR,DE,2026-08-26,duplicate row
+ORD10829,1329,customer1329@example.com,1771554585,completed,web,SKU-EL-004,4K Action Camera,Electronics,1,202.82,EUR,RO,2026-08-23,duplicate row
+ORD10842,40,customer40@example.com,1780751784,completed,mobile_app,SKU-BK-002,The Pragmatic Programmer,Books,1,46.71,EUR,RO,2026-08-25,duplicate row
+ORD10848,805,customer805@example.com,19/06/2026 19:46,completed,marketplace,SKU-FA-001,Men's Slim Fit Jeans,Fashion,3,53.92,RON,RO,2026-08-31,duplicate row
+ORD10861,65,customer65@example.com,2026-05-15T11:30:02,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,2,37.12,EUR,HU,2026-09-02,duplicate row
+ORD10892,70,customer70@example.com,2026-05-14T14:35:50,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,1,141.11,EUR,RO,2026-08-25,duplicate row
+ORD10903,1627,customer1627@example.com,2026-01-30T00:17:31,completed,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,1,33.99,EUR,RO,2026-08-27,duplicate row
+ORD10931,1741,customer1741@example.com,2026-01-18T03:06:54,completed,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,2,33.82,EUR,RO,2026-08-30,duplicate row
+ORD10942,1625,customer1625@example.com,2026-01-25T20:33:03,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,3,51.21,EUR,RO,2026-08-29,duplicate row
+ORD10964,985,customer985@example.com,1779001361,completed,mobile_app,SKU-EL-004,4K Action Camera,Electronics,1,181.8,RON,RO,2026-08-31,duplicate row
+ORD10969,427,customer427@example.com,2026-06-01T03:07:35,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,47.92,EUR,DE,2026-08-29,duplicate row
+ORD10991,1094,customer1094@example.com,2026-06-16T18:03:25,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,1,40.82,RON,DE,2026-08-23,duplicate row
+ORD11006,222,customer222@example.com,18/05/2026 19:47,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,178.75,EUR,DE,2026-09-03,duplicate row
+ORD11027,1223,customer1223@example.com,2026-06-18T06:16:43,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,27.46,EUR,RO,2026-09-01,duplicate row
+ORD11041,1035,customer1035@example.com,1768492564,completed,marketplace,SKU-EL-002,USB-C Fast Charger 65W,Electronics,2,33.21,RON,BG,2026-08-29,duplicate row
+ORD11047,199,customer199@example.com,03/02/2026 19:26,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,3,87.88,EUR,RO,2026-08-23,duplicate row
+ORD11089,328,customer328@example.com,27/01/2026 00:28,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,3,44.4,EUR,RO,2026-08-27,duplicate row
+ORD11108,689,customer689@example.com,2026-04-03T09:42:32,completed,mobile_app,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,56.73,EUR,RO,2026-08-30,duplicate row
+ORD11117,1268,customer1268@example.com,1773841098,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,122.94,EUR,RO,2026-08-27,duplicate row
+ORD11166,671,customer671@example.com,2026-01-11T19:31:09,refunded,web,SKU-EL-001,Wireless Earbuds X2,Electronics,1,76.19,EUR,RO,2026-09-03,duplicate row
+ORD11179,1364,customer1364@example.com,28/02/2026 20:15,completed,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,26.27,EUR,BG,2026-08-27,duplicate row
+ORD11253,338,customer338@example.com,2026-04-22T00:11:40,completed,marketplace,SKU-BK-002,The Pragmatic Programmer,Books,1,41.83,EUR,RO,2026-09-01,duplicate row
+ORD11279,1491,customer1491@example.com,2026-04-16T01:54:26,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,1,63.83,EUR,HU,2026-08-27,duplicate row
+ORD11312,1837,internal.tester1837@aqurate.ai,1775567908,test,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,45.87,RON,RO,2026-08-25,duplicate row
+ORD11344,175,customer175@example.com,27/06/2026 12:57,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,20.79,EUR,RO,2026-09-01,duplicate row
+ORD11345,1035,customer1035@example.com,2026-01-03T06:33:43,refunded,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,180.09,EUR,DE,2026-08-25,duplicate row
+ORD11391,1502,customer1502@example.com,2026-03-15T21:25:19,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,26.77,EUR,RO,2026-08-26,duplicate row
+ORD11474,1822,customer1822@example.com,19/03/2026 06:41,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,19.92,EUR,RO,2026-08-25,duplicate row
+ORD11487,137,customer137@example.com,2026-01-01T22:41:56,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,56.04,RON,RO,2026-08-24,duplicate row
+ORD11506,515,customer515@example.com,1772256417,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,3,30.77,EUR,BG,2026-08-30,duplicate row
+ORD11547,718,customer718@example.com,2026-05-09T05:11:59,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,53.57,RON,BG,2026-08-29,duplicate row
+ORD11591,1508,customer1508@example.com,2026-02-23T22:15:04,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,1,150.84,EUR,BG,2026-08-29,duplicate row
+ORD11606,1358,customer1358@example.com,1775088414,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,1,148.91,EUR,RO,2026-08-25,duplicate row
+ORD11643,1057,customer1057@example.com,2026-03-24T05:06:57,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,2,77.09,EUR,HU,2026-08-26,duplicate row
+ORD11668,1003,customer1003@example.com,2026-03-13T10:12:10,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,1,98.66,EUR,HU,2026-09-01,duplicate row
+ORD11676,418,customer418@example.com,29/06/2026 05:54,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,168.74,EUR,RO,2026-08-28,duplicate row
+ORD11723,57,customer57@example.com,2026-02-15T06:52:17,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,18.93,EUR,BG,2026-08-26,duplicate row
+ORD11747,389,customer389@example.com,2026-01-09T09:08:55,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,25.94,EUR,RO,2026-08-30,duplicate row
+ORD11776,1371,customer1371@example.com,2026-02-23T23:21:28,completed,marketplace,SKU-BK-001,Atomic Habits (RO ed.),Books,3,18.29,EUR,BG,2026-08-27,duplicate row
+ORD11811,796,customer796@example.com,25/02/2026 20:11,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,1,72.03,EUR,RO,2026-09-03,duplicate row
+ORD11822,242,customer242@example.com,1769275521,completed,marketplace,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,1,69.63,RON,DE,2026-08-28,duplicate row
+ORD11840,987,customer987@example.com,2026-06-22T15:57:11,completed,marketplace,SKU-FA-002,Women's Wool Coat,Fashion,3,136.01,EUR,RO,2026-08-28,duplicate row
+ORD11895,1735,customer1735@example.com,1768083186,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,18.27,RON,RO,2026-08-23,duplicate row
+ORD11991,1266,customer1266@example.com,2026-03-29T17:04:30,completed,mobile_app,SKU-FA-002,Women's Wool Coat,Fashion,1,131.82,EUR,BG,2026-08-30,duplicate row
+ORD12038,1183,customer1183@example.com,2026-06-26T16:08:07,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,3,89.03,EUR,DE,2026-08-31,duplicate row
+ORD12046,1858,customer1858@example.com,2026-06-09T19:06:08,completed,mobile_app,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,174.92,EUR,RO,2026-09-02,duplicate row
+ORD12085,1823,customer1823@example.com,1775991637,completed,mobile_app,SKU-EL-001,Wireless Earbuds X2,Electronics,1,82.27,RON,DE,2026-08-28,duplicate row
+ORD12089,1643,customer1643@example.com,2026-01-28T19:18:29,completed,marketplace,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,31.16,EUR,RO,2026-09-01,duplicate row
+ORD12111,1605,customer1605@example.com,1776260415,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,1,46.52,EUR,RO,2026-08-31,duplicate row
+ORD12119,1214,customer1214@example.com,2026-05-12T11:03:37,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,58.92,RON,RO,2026-09-01,duplicate row
+ORD12142,1908,customer1908@example.com,2026-04-02T10:07:34,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,1,46.52,EUR,RO,2026-08-27,duplicate row
+ORD12190,781,customer781@example.com,1770281589,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,56.23,EUR,RO,2026-08-27,duplicate row
+ORD12198,1450,customer1450@example.com,2026-01-27T20:12:23,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,1,33.61,EUR,HU,2026-08-31,duplicate row
+ORD12316,1634,customer1634@example.com,2026-05-23T17:01:11,completed,web,SKU-EL-004,4K Action Camera,Electronics,2,185.79,RON,HU,2026-08-26,duplicate row
+ORD12388,530,customer530@example.com,1774749493,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,44.29,RON,RO,2026-08-29,duplicate row
+ORD12395,1973,customer1973@example.com,1772090462,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-1,157.46,EUR,BG,2026-08-26,duplicate row
+ORD12401,510,customer510@example.com,04/06/2026 04:04,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,22.8,EUR,BG,2026-08-31,duplicate row
+ORD12415,909,customer909@example.com,15/03/2026 13:36,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,1,46.68,RON,RO,2026-08-28,duplicate row
+ORD12528,1638,customer1638@example.com,2026-03-17T07:14:34,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,35.86,RON,RO,2026-08-31,duplicate row
+ORD12543,1285,customer1285@example.com,2026-02-18T14:19:14,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,38.33,EUR,DE,2026-09-01,duplicate row
+ORD12547,1259,customer1259@example.com,10/01/2026 03:46,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,2,96.6,EUR,RO,2026-08-23,duplicate row
+ORD12555,,customer1621@example.com,1780624719,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,2,158.52,EUR,RO,2026-08-24,duplicate row
+ORD12558,221,customer221@example.com,2026-03-14T12:44:23,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,2,62.36,EUR,RO,2026-08-23,duplicate row
+ORD12561,1779,customer1779@example.com,2026-03-03T19:45:56,completed,marketplace,SKU-EL-004,4K Action Camera,Electronics,3,179.48,EUR,HU,2026-08-30,duplicate row
+ORD12614,1697,customer1697@example.com,1770603333,completed,mobile_app,SKU-FA-002,Women's Wool Coat,Fashion,-1,152.63,EUR,RO,2026-09-01,duplicate row
+ORD12616,753,customer753@example.com,1772864506,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,1,30.07,EUR,HU,2026-08-27,duplicate row
+ORD12632,1773,customer1773@example.com,2026-06-04T13:33:33,refunded,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,49.87,EUR,RO,2026-09-01,duplicate row
+ORD12644,1480,customer1480@example.com,2026-04-06T14:03:17,completed,mobile_app,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,53.71,EUR,RO,2026-08-27,duplicate row
+ORD12669,1440,customer1440@example.com,18/03/2026 16:22,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,19.6,EUR,HU,2026-08-30,duplicate row
+ORD12698,1026,customer1026@example.com,2026-06-19T13:22:05,completed,mobile_app,SKU-EL-001,Wireless Earbuds X2,Electronics,1,83.35,EUR,HU,2026-08-25,duplicate row
+ORD12741,,customer1794@example.com,1773105119,completed,mobile_app,SKU-BK-001,Atomic Habits (RO ed.),Books,1,21.42,RON,HU,2026-09-03,duplicate row
+ORD12748,976,customer976@example.com,2026-01-24T09:07:30,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,2,42.09,EUR,RO,2026-09-01,duplicate row
+ORD12757,883,internal.tester883@aqurate.ai,2026-06-02T01:49:40,test,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,28.68,EUR,RO,2026-08-30,duplicate row
+ORD12945,562,customer562@example.com,2026-02-18T05:27:13,completed,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,2,26.43,EUR,HU,2026-08-27,duplicate row
+ORD13057,1527,customer1527@example.com,2026-06-12T19:37:21,completed,marketplace,SKU-FA-001,Men's Slim Fit Jeans,Fashion,2,51.98,RON,RO,2026-08-31,duplicate row
+ORD13088,1850,customer1850@example.com,2026-03-29T11:53:32,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,1,30.84,EUR,RO,2026-08-24,duplicate row
+ORD13156,769,customer769@example.com,1779498160,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,19.82,RON,RO,2026-08-28,duplicate row
+ORD13157,1201,customer1201@example.com,2026-01-15T09:20:58,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,35.64,EUR,RO,2026-08-31,duplicate row
+ORD13165,1875,customer1875@example.com,2026-05-07T23:51:49,completed,web,SKU-EL-004,4K Action Camera,Electronics,1,182.34,EUR,RO,2026-09-03,duplicate row
+ORD13174,726,customer726@example.com,2026-02-12T01:42:16,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,36.69,RON,HU,2026-09-03,duplicate row
+ORD13197,790,customer790@example.com,2026-06-14T14:14:12,completed,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,44.46,EUR,RO,2026-08-26,duplicate row
+ORD13202,1287,customer1287@example.com,2026-02-01T04:43:09,completed,web,SKU-EL-004,4K Action Camera,Electronics,1,171.56,EUR,RO,2026-09-02,duplicate row
+ORD13246,60,customer60@example.com,2026-06-20T07:11:21,completed,web,SKUEL001,Wireless Earbuds X2,Electronics,1,72.05,EUR,RO,2026-08-25,duplicate row
+ORD13263,130,customer130@example.com,2026-04-25T05:43:51,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,3,54.6,EUR,BG,2026-08-30,duplicate row
+ORD13287,655,customer655@example.com,2026-01-30T11:50:01,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,2,23.83,EUR,RO,2026-09-02,duplicate row
+ORD13292,727,customer727@example.com,2026-06-13T07:07:50,completed,mobile_app,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,25.14,EUR,RO,2026-08-26,duplicate row
+ORD13315,1278,customer1278@example.com,2026-02-08T11:44:46,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,48.88,EUR,RO,2026-09-01,duplicate row
+ORD13339,688,customer688@example.com,2026-01-10T07:38:13,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,1,85.75,EUR,HU,2026-08-29,duplicate row
+ORD13351,1651,customer1651@example.com,19/03/2026 17:21,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,189.48,EUR,RO,2026-08-31,duplicate row
+ORD13390,365,customer365@example.com,2026-06-05T06:06:11,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,3,44.01,EUR,RO,2026-09-03,duplicate row
+ORD13394,1468,customer1468@example.com,07/04/2026 23:26,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,,2,29.22,EUR,RO,2026-08-24,duplicate row
+ORD13446,1332,customer1332@example.com,1771433851,completed,marketplace,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,178.46,EUR,RO,2026-08-30,duplicate row
+ORD13525,1437,customer1437@example.com,2026-03-06T02:08:28,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,3,185.34,EUR,HU,2026-08-28,duplicate row
+ORD13536,384,customer384@example.com,2026-02-05T10:36:55,completed,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,44.34,EUR,RO,2026-08-26,duplicate row
+ORD13539,899,customer899@example.com,2026-03-12T21:51:21,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,3,19.51,EUR,DE,2026-08-31,duplicate row
+ORD13565,,customer995@example.com,2026-03-23T14:30:15,completed,mobile_app,SKU-FA-001,Men's Slim Fit Jeans,Fashion,2,53.39,RON,BG,2026-08-25,duplicate row
+ORD13609,802,customer802@example.com,2026-06-09T08:35:54,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,28.47,EUR,RO,2026-08-27,duplicate row
+ORD13649,1960,customer1960@example.com,2026-04-26T09:51:27,completed,mobile_app,SKU-BK-002,The Pragmatic Programmer,Books,1,45.1,EUR,RO,2026-08-25,duplicate row
+ORD13686,1256,customer1256@example.com,01/01/2026 22:19,completed,mobile_app,SKU-EL-004,4K Action Camera,Electronics,1,198.18,EUR,BG,2026-08-30,duplicate row
+ORD13719,646,customer646@example.com,2026-06-20T14:06:06,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,23.51,EUR,RO,2026-08-25,duplicate row
+ORD13830,166,customer166@example.com,2026-03-29T13:49:54,completed,web,SKU-FA-001,Men's Slim Fit Jeans,,1,54.54,EUR,BG,2026-08-27,duplicate row
+ORD13868,194,customer194@example.com,20/03/2026 23:30,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,1,82.6,RON,HU,2026-08-28,duplicate row
+ORD13875,1511,customer1511@example.com,1770147032,refunded,marketplace,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,165.19,EUR,RO,2026-08-30,duplicate row
+ORD13981,1228,customer1228@example.com,23/01/2026 00:43,completed,mobile_app,SKU-BK-001,Atomic Habits (RO ed.),Books,1,21.66,EUR,RO,2026-08-27,duplicate row
+ORD14003,1752,customer1752@example.com,2026-05-25T08:00:47,completed,mobile_app,SKU-SP-001,Yoga Mat Premium,Sports,2,31.8,EUR,RO,2026-08-26,duplicate row
+ORD14078,309,customer309@example.com,2026-03-20T00:44:02,completed,marketplace,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,33.9,EUR,RO,2026-08-24,duplicate row
+ORD14083,618,customer618@example.com,01/04/2026 12:31,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,115.89,EUR,RO,2026-08-30,duplicate row
+ORD14095,262,customer262@example.com,12/05/2026 12:18,completed,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,3,27.32,EUR,RO,2026-09-02,duplicate row
+ORD14133,58,customer58@example.com,09/04/2026 01:58,completed,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,27.14,EUR,RO,2026-08-26,duplicate row
+ORD14141,1479,customer1479@example.com,1776458256,completed,mobile_app,SKU-EL-003,Bluetooth Speaker Mini,Electronics,2,50.23,EUR,RO,2026-08-28,duplicate row
+ORD14174,1381,customer1381@example.com,2026-05-26T04:39:48,completed,marketplace,SKU-BK-002,The Pragmatic Programmer,Books,2,40.83,EUR,DE,2026-08-25,duplicate row
+ORD14214,1164,customer1164@example.com,2026-04-11T17:42:54,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,2,84.99,EUR,DE,2026-08-29,duplicate row
+ORD14242,1898,customer1898@example.com,2026-06-13T20:22:11,completed,web,SKU-EL-004,4K Action Camera,Electronics,3,187.16,RON,RO,2026-08-25,duplicate row
+ORD14312,523,customer523@example.com,2026-04-04T04:06:14,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,2,30.68,EUR,DE,2026-08-30,duplicate row
+ORD14313,392,customer392@example.com,2026-05-15T22:36:20,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,3,112.94,EUR,BG,2026-08-25,duplicate row
+ORD14329,349,customer349@example.com,2026-02-10T07:57:25,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,1,86.45,EUR,RO,2026-08-29,duplicate row
+ORD14453,58,customer58@example.com,2026-04-20T22:58:42,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,1,61.86,EUR,DE,2026-08-25,duplicate row
+ORD14523,1697,customer1697@example.com,2026-03-28T22:23:47,completed,marketplace,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,31.97,EUR,RO,2026-08-28,duplicate row
+ORD14534,509,customer509@example.com,11/03/2026 22:45,completed,marketplace,SKU-FA-001,Men's Slim Fit Jeans,Fashion,2,53.67,EUR,RO,2026-08-26,duplicate row
+ORD14537,1689,customer1689@example.com,1780874370,completed,mobile_app,SKU-EL-004,4K Action Camera,Electronics,1,187.5,EUR,RO,2026-08-28,duplicate row
+ORD14563,1976,customer1976@example.com,2026-02-04T01:08:02,completed,mobile_app,SKU-FA-003,Running Shoes Pro,Fashion,1,92.47,EUR,RO,2026-08-27,duplicate row
+ORD14567,1123,customer1123@example.com,2026-02-14T11:03:14,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,2,28.93,RON,RO,2026-08-29,duplicate row
+ORD14658,1334,customer1334@example.com,2026-04-22T21:12:37,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,21.49,EUR,RO,2026-08-23,duplicate row
+ORD14673,1648,customer1648@example.com,2026-03-05T09:05:45,completed,marketplace,SKU-FA-003,Running Shoes Pro,Fashion,1,91.81,EUR,RO,2026-09-03,duplicate row
+ORD14819,134,customer134@example.com,2026-01-13T20:29:08,completed,mobile_app,SKU-FA-002,Women's Wool Coat,Fashion,1,159.09,EUR,BG,2026-09-01,duplicate row
+ORD14853,16,customer16@example.com,2026-06-12T02:47:07,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,162.46,EUR,RO,2026-08-31,duplicate row
+ORD14891,105,customer105@example.com,24/03/2026 21:30,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,2,31.19,EUR,HU,2026-08-31,duplicate row
+ORD14909,1951,customer1951@example.com,2026-01-04T07:49:07,completed,marketplace,SKU-FA-002,Women's Wool Coat,Fashion,1,156.9,EUR,RO,2026-09-01,duplicate row
+ORD14917,1078,customer1078@example.com,1781719884,completed,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,1,29.01,RON,DE,2026-08-23,duplicate row
+ORD14940,1831,customer1831@example.com,2026-05-12T13:21:47,completed,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,28.18,EUR,DE,2026-08-29,duplicate row
+ORD14988,1826,customer1826@example.com,2026-06-27T08:00:16,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,2,32.57,EUR,RO,2026-08-30,duplicate row
+ORD15096,165,customer165@example.com,1772664887,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,2,40.77,EUR,HU,2026-08-29,duplicate row
+ORD15152,725,customer725@example.com,12/04/2026 01:45,completed,marketplace,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,27.17,RON,RO,2026-08-30,duplicate row
+ORD15210,1242,customer1242@example.com,2026-04-29T19:33:24,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,31.55,EUR,DE,2026-08-28,duplicate row
+ORD15252,317,customer317@example.com,2026-04-03T02:51:29,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,2,24.62,EUR,RO,2026-09-01,duplicate row
+ORD15322,1117,customer1117@example.com,1771702638,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,1,64.79,RON,RO,2026-08-25,duplicate row
+ORD15324,1231,customer1231@example.com,2026-02-25T16:07:45,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,2,36.4,EUR,BG,2026-08-23,duplicate row
+ORD15333,761,customer761@example.com,2026-01-23T14:21:11,completed,mobile_app,SKU-EL-004,4K Action Camera,Electronics,1,192.79,EUR,RO,2026-08-27,duplicate row
+ORD15338,1208,customer1208@example.com,2026-05-08T10:32:14,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,1,76.68,EUR,RO,2026-08-24,duplicate row
+ORD15340,1707,customer1707@example.com,2026-04-06T02:42:14,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,37.67,RON,RO,2026-08-24,duplicate row
+ORD15372,1105,customer1105@example.com,1774761684,completed,mobile_app,SKU HK 003,Air Fryer 5L,Home & Kitchen,1,118.06,EUR,RO,2026-08-26,duplicate row
+ORD15395,793,customer793@example.com,02/04/2026 14:58,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,49.18,EUR,DE,2026-09-03,duplicate row
+ORD15483,645,customer645@example.com,2026-01-29T19:20:58,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,163.95,EUR,DE,2026-08-23,duplicate row
+ORD15537,1557,customer1557@example.com,2026-03-15T20:37:45,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,26.63,EUR,RO,2026-09-02,duplicate row
+ORD15564,265,customer265@example.com,1768694271,completed,web,SKU-EL-004,4K Action Camera,Electronics,2,192.93,RON,BG,2026-08-27,duplicate row
+ORD15610,298,internal.tester298@aqurate.ai,01/03/2026 05:04,test,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,2,27.88,EUR,RO,2026-09-02,duplicate row
+ORD15639,1798,customer1798@example.com,08/06/2026 00:11,completed,marketplace,SKU-EL-001,Wireless Earbuds X2,Electronics,1,81.21,EUR,DE,2026-08-30,duplicate row
+ORD15656,1785,customer1785@example.com,2026-02-23T23:36:44,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,1,46.13,EUR,DE,2026-09-03,duplicate row
+ORD15674,786,customer786@example.com,03/01/2026 00:05,completed,mobile_app,SKU-FA-001,Men's Slim Fit Jeans,Fashion,3,55.2,EUR,RO,2026-09-01,duplicate row
+ORD15690,265,customer265@example.com,08/03/2026 21:14,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,25.07,EUR,DE,2026-08-28,duplicate row
+ORD15705,1611,customer1611@example.com,2026-06-24T10:34:16,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,126.17,EUR,RO,2026-09-03,duplicate row
+ORD15716,529,customer529@example.com,06/04/2026 23:55,completed,mobile_app,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,122.26,EUR,BG,2026-08-25,duplicate row
+ORD15726,1997,customer1997@example.com,1778307411,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,2,113.97,EUR,BG,2026-08-24,duplicate row
+ORD15777,660,customer660@example.com,2026-03-01T22:45:55,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,2,79.09,EUR,RO,2026-09-03,duplicate row
+ORD15874,1265,customer1265@example.com,26/01/2026 10:09,completed,marketplace,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,23.22,EUR,RO,2026-08-27,duplicate row
+ORD15939,1814,customer1814@example.com,2026-03-03T01:47:23,completed,mobile_app,SKU-SP-001,Yoga Mat Premium,Sports,2,32.04,EUR,RO,2026-08-28,duplicate row
+ORD15959,1128,customer1128@example.com,2026-01-26T08:39:08,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,39.61,EUR,BG,2026-08-26,duplicate row
+ORD15973,685,internal.tester685@aqurate.ai,08/01/2026 02:12,test,web,SKU-EL-004,4K Action Camera,Electronics,3,170.98,EUR,RO,2026-08-23,duplicate row
+ORD15986,344,customer344@example.com,2026-05-19T13:38:05,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,2,74.23,EUR,HU,2026-08-28,duplicate row
+ORD15998,1390,customer1390@example.com,2026-04-24T11:40:16,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,1,81.05,RON,HU,2026-08-26,duplicate row
+ORD10189,661,customer661@example.com,10/06/2026 13:16,completed,web,SKU-EL-004,4K Action Camera,Electronics,-1,201.22,EUR,RO,2026-09-02,invalid quantity
+ORD10207,559,customer559@example.com,20/02/2026 04:12,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-3,34.4,EUR,BG,2026-08-25,invalid quantity
+ORD10247,659,customer659@example.com,1774939752,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,-1,72.06,RON,RO,2026-09-01,invalid quantity
+ORD10258,472,customer472@example.com,2026-02-11T09:17:50,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-2,25.69,EUR,DE,2026-08-30,invalid quantity
+ORD10275,452,customer452@example.com,19/01/2026 18:12,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,-1,180.39,EUR,BG,2026-09-03,invalid quantity
+ORD10280,950,customer950@example.com,2026-02-24T23:55:39,completed,marketplace,SKU-BK-002,The Pragmatic Programmer,Books,-1,47.66,RON,RO,2026-08-27,invalid quantity
+ORD10285,481,customer481@example.com,11/05/2026 15:29,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-1,34.65,EUR,RO,2026-09-03,invalid quantity
+ORD10297,1152,customer1152@example.com,2026-05-27T05:33:16,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-1,31.04,EUR,HU,2026-08-25,invalid quantity
+ORD10379,54,customer54@example.com,1779883641,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-3,60.21,EUR,DE,2026-08-27,invalid quantity
+ORD10474,720,customer720@example.com,2026-05-03T22:01:40,completed,mobile_app,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-1,31.71,EUR,DE,2026-08-31,invalid quantity
+ORD10509,87,customer87@example.com,2026-05-28T06:59:43,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,-2,33.09,EUR,DE,2026-09-02,invalid quantity
+ORD10578,402,customer402@example.com,2026-02-08T09:05:27,completed,mobile_app,SKU-EL-001,Wireless Earbuds X2,Electronics,-3,79.57,EUR,RO,2026-09-01,invalid quantity
+ORD10596,323,customer323@example.com,28/04/2026 18:48,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-1,36.43,EUR,RO,2026-08-27,invalid quantity
+ORD10619,344,customer344@example.com,2026-02-03T08:54:45,completed,marketplace,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-3,34.9,EUR,RO,2026-08-29,invalid quantity
+ORD10636,1899,customer1899@example.com,24/04/2026 23:03,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,111.77,EUR,RO,2026-08-31,invalid quantity
+ORD10645,1509,customer1509@example.com,2026-04-18T13:05:49,completed,mobile_app,SKU-BK-002,The Pragmatic Programmer,Books,-1,39.98,EUR,RO,2026-09-01,invalid quantity
+ORD10685,929,customer929@example.com,2026-04-21T13:21:42,completed,mobile_app,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-3,34.87,EUR,RO,2026-08-31,invalid quantity
+ORD10753,1797,customer1797@example.com,2026-01-04T14:19:02,completed,marketplace,SKU-BE-001,Vitamin C Serum 30ml,Beauty,-1,26.51,EUR,RO,2026-08-25,invalid quantity
+ORD10826,994,customer994@example.com,2026-02-14T00:25:43,completed,mobile_app,SKU-EL-001,Wireless Earbuds X2,Electronics,-1,76.58,EUR,HU,2026-08-31,invalid quantity
+ORD10891,368,customer368@example.com,29/01/2026 11:15,completed,marketplace,SKU-EL-004,4K Action Camera,Electronics,-1,206.72,EUR,BG,2026-08-24,invalid quantity
+ORD10912,1924,customer1924@example.com,22/06/2026 04:20,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,-1,46.66,EUR,RO,2026-09-01,invalid quantity
+ORD10939,1522,customer1522@example.com,2026-03-11T06:30:46,completed,web,SKU-EL-004,4K Action Camera,Electronics,-1,170.21,EUR,BG,2026-09-02,invalid quantity
+ORD11038,171,customer171@example.com,2026-05-22T23:25:33,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,117.84,RON,DE,2026-08-24,invalid quantity
+ORD11065,1273,customer1273@example.com,2026-04-29T05:06:50,completed,mobile_app,SKU-SP-001,Yoga Mat Premium,Sports,-2,32.15,RON,DE,2026-09-02,invalid quantity
+ORD11140,28,customer28@example.com,2026-03-14T07:48:13,completed,mobile_app,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,123.93,EUR,RO,2026-08-30,invalid quantity
+ORD11195,1819,customer1819@example.com,2026-03-18T19:26:34,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,-1,26.04,EUR,HU,2026-08-30,invalid quantity
+ORD11211,907,customer907@example.com,20/01/2026 00:04,completed,mobile_app,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,122.38,RON,RO,2026-08-29,invalid quantity
+ORD11219,912,customer912@example.com,2026-06-22T22:47:44,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-2,34.44,RON,RO,2026-08-28,invalid quantity
+ORD11264,1539,customer1539@example.com,2026-04-07T05:42:19,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,112.82,RON,HU,2026-08-31,invalid quantity
+ORD11293,1035,customer1035@example.com,2026-04-20T13:44:11,completed,web,SKU-EL-004,4K Action Camera,Electronics,-1,171.36,RON,RO,2026-08-29,invalid quantity
+ORD11309,1119,customer1119@example.com,2026-03-09T15:36:07,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-1,148.44,EUR,RO,2026-09-01,invalid quantity
+ORD11373,1926,customer1926@example.com,11/01/2026 12:18,completed,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,40.44,EUR,BG,2026-08-27,invalid quantity
+ORD11400,444,customer444@example.com,12/03/2026 06:11,completed,mobile_app,SKU-FA-003,Running Shoes Pro,Fashion,-1,86.69,EUR,HU,2026-08-28,invalid quantity
+ORD11446,1052,customer1052@example.com,2026-03-24T04:14:25,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,-1,27.24,EUR,HU,2026-09-01,invalid quantity
+ORD11528,863,customer863@example.com,1776994421,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,-1,53.98,EUR,HU,2026-09-02,invalid quantity
+ORD11549,75,customer75@example.com,17/03/2026 04:40,completed,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,-2,52.25,EUR,HU,2026-08-26,invalid quantity
+ORD11597,1879,customer1879@example.com,22/05/2026 05:57,completed,web,SKU-EL-004,4K Action Camera,Electronics,-2,192.84,EUR,DE,2026-08-30,invalid quantity
+ORD11711,939,customer939@example.com,2026-01-26T16:01:43,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-1,31.19,EUR,RO,2026-09-01,invalid quantity
+ORD11720,352,customer352@example.com,2026-03-26T16:50:21,completed,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,-1,29.13,EUR,RO,2026-08-23,invalid quantity
+ORD11737,1248,customer1248@example.com,2026-05-03T02:01:43,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,-1,41.91,EUR,RO,2026-09-02,invalid quantity
+ORD11745,576,customer576@example.com,2026-06-10T03:20:26,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,-1,55.77,EUR,BG,2026-08-23,invalid quantity
+ORD11773,1574,customer1574@example.com,24/01/2026 10:09,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,-1,178.99,EUR,RO,2026-08-25,invalid quantity
+ORD11789,206,customer206@example.com,1777120734,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-1,58.99,EUR,DE,2026-08-23,invalid quantity
+ORD11790,353,customer353@example.com,08/05/2026 21:51,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-1,28.63,EUR,RO,2026-08-26,invalid quantity
+ORD11821,246,customer246@example.com,2026-04-12T03:52:56,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,40.6,EUR,DE,2026-09-01,invalid quantity
+ORD11847,820,customer820@example.com,2026-01-10T17:51:04,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-1,33.04,EUR,HU,2026-09-01,invalid quantity
+ORD11869,1804,customer1804@example.com,2026-06-16T02:19:23,completed,marketplace,SKU-FA-001,Men's Slim Fit Jeans,Fashion,-1,55.2,EUR,RO,2026-09-03,invalid quantity
+ORD11904,635,customer635@example.com,2026-04-10T01:28:20,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,40.22,RON,RO,2026-08-31,invalid quantity
+ORD11942,1376,customer1376@example.com,2026-04-03T17:28:59,completed,mobile_app,SKU-EL-004,4K Action Camera,Electronics,-2,182.97,RON,RO,2026-08-27,invalid quantity
+ORD11975,1638,customer1638@example.com,1777329973,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,-3,177.41,EUR,RO,2026-09-03,invalid quantity
+ORD12020,1924,customer1924@example.com,1768487712,completed,marketplace,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,117.82,EUR,RO,2026-08-29,invalid quantity
+ORD12027,30,customer30@example.com,2026-06-21T13:27:31,completed,web,SKU-EL-004,4K Action Camera,Electronics,-3,182.43,EUR,BG,2026-09-03,invalid quantity
+ORD12051,266,customer266@example.com,21/04/2026 22:38,completed,web,SKU-EL-004,4K Action Camera,Electronics,-2,181.99,EUR,HU,2026-08-28,invalid quantity
+ORD12056,1824,customer1824@example.com,1775580860,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-1,37.3,EUR,HU,2026-08-30,invalid quantity
+ORD12064,744,customer744@example.com,2026-04-11T08:30:57,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,-1,30.84,EUR,BG,2026-08-29,invalid quantity
+ORD12106,274,customer274@example.com,2026-04-25T10:58:21,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,-1,40.67,EUR,BG,2026-08-29,invalid quantity
+ORD12168,1065,customer1065@example.com,2026-01-23T05:25:03,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,-1,22.96,EUR,RO,2026-08-27,invalid quantity
+ORD12178,65,customer65@example.com,04/01/2026 09:29,completed,mobile_app,SKU-EL-001,Wireless Earbuds X2,Electronics,-1,78.03,RON,RO,2026-08-28,invalid quantity
+ORD12204,1956,customer1956@example.com,2026-01-18T03:40:06,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-3,145.09,RON,RO,2026-08-31,invalid quantity
+ORD12211,1109,customer1109@example.com,30/03/2026 21:11,completed,mobile_app,SKU-BK-001,Atomic Habits (RO ed.),Books,-2,18.97,EUR,HU,2026-09-03,invalid quantity
+ORD12287,805,customer805@example.com,2026-04-30T02:19:36,completed,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,38.01,RON,RO,2026-08-26,invalid quantity
+ORD12381,70,customer70@example.com,27/01/2026 04:21,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,-1,29.01,RON,RO,2026-08-25,invalid quantity
+ORD12395,1973,customer1973@example.com,1772090462,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-1,157.46,EUR,BG,2026-08-26,invalid quantity
+ORD12400,1774,customer1774@example.com,2026-01-12T08:04:40,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-2,39.75,EUR,RO,2026-08-28,invalid quantity
+ORD12413,1848,customer1848@example.com,2026-04-23T02:43:12,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,-3,76.44,EUR,RO,2026-08-26,invalid quantity
+ORD12441,889,customer889@example.com,26/05/2026 02:07,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,43.22,EUR,BG,2026-08-28,invalid quantity
+ORD12500,1885,customer1885@example.com,2026-05-07T11:37:04,completed,marketplace,SKU-FA-003,Running Shoes Pro,Fashion,-2,93.46,RON,DE,2026-09-02,invalid quantity
+ORD12502,1927,customer1927@example.com,2026-02-27T22:26:09,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,110.82,RON,RO,2026-08-25,invalid quantity
+ORD12527,980,customer980@example.com,01/03/2026 09:05,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,-3,87.11,RON,RO,2026-08-25,invalid quantity
+ORD12530,1128,customer1128@example.com,2026-02-27T05:12:09,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,41.53,RON,BG,2026-08-25,invalid quantity
+ORD12614,1697,customer1697@example.com,1770603333,completed,mobile_app,SKU-FA-002,Women's Wool Coat,Fashion,-1,152.63,EUR,RO,2026-09-01,invalid quantity
+ORD12667,353,customer353@example.com,2026-02-06T21:44:23,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,-1,52.33,EUR,BG,2026-09-02,invalid quantity
+ORD12688,174,customer174@example.com,2026-01-19T01:52:08,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,-1,60.1,EUR,HU,2026-09-01,invalid quantity
+ORD12711,814,customer814@example.com,2026-05-14T22:19:21,completed,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,-1,52.36,EUR,HU,2026-08-31,invalid quantity
+ORD12821,1112,customer1112@example.com,2026-01-20T06:08:46,completed,mobile_app,SKU-EL-003,Bluetooth Speaker Mini,Electronics,-1,51.77,RON,DE,2026-08-25,invalid quantity
+ORD12862,739,customer739@example.com,1778127174,completed,mobile_app,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-1,64.07,EUR,RO,2026-09-01,invalid quantity
+ORD12870,191,customer191@example.com,2026-01-20T20:37:02,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,39.06,EUR,RO,2026-09-03,invalid quantity
+ORD12921,1269,customer1269@example.com,2026-02-04T04:43:06,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,42.38,EUR,HU,2026-08-25,invalid quantity
+ORD12964,40,customer40@example.com,2026-03-31T02:20:15,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,-1,29.03,EUR,RO,2026-08-25,invalid quantity
+ORD12975,34,customer34@example.com,2026-01-21T07:29:36,completed,mobile_app,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-1,69.21,EUR,RO,2026-09-02,invalid quantity
+ORD12979,1846,customer1846@example.com,27/05/2026 23:10,completed,marketplace,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-1,31.11,EUR,RO,2026-08-29,invalid quantity
+ORD13054,1671,customer1671@example.com,2026-06-10T21:41:13,completed,mobile_app,SKU-BK-001,Atomic Habits (RO ed.),Books,-1,19.34,EUR,HU,2026-08-29,invalid quantity
+ORD13060,178,customer178@example.com,2026-01-03T00:04:02,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-2,60.12,EUR,RO,2026-08-29,invalid quantity
+ORD13065,1328,customer1328@example.com,1770665177,completed,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,-1,53.09,EUR,RO,2026-08-27,invalid quantity
+ORD13068,1550,customer1550@example.com,2026-01-11T01:09:03,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-2,150.08,EUR,RO,2026-08-29,invalid quantity
+ORD13084,1721,customer1721@example.com,2026-02-13T09:14:50,completed,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,41.27,EUR,RO,2026-08-31,invalid quantity
+ORD13092,1382,customer1382@example.com,02/01/2026 11:38,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,-1,188.16,EUR,DE,2026-08-25,invalid quantity
+ORD13129,571,customer571@example.com,2026-03-19T06:32:15,completed,marketplace,SKU-EL-004,4K Action Camera,Electronics,-2,179.55,EUR,RO,2026-08-28,invalid quantity
+ORD13134,21,customer21@example.com,2026-02-25T16:41:07,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-2,67.1,RON,RO,2026-08-27,invalid quantity
+ORD13165,1875,customer1875@example.com,2026-05-07T23:51:49,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,-2,53.1,EUR,RO,2026-09-03,invalid quantity
+ORD13202,1287,customer1287@example.com,2026-02-01T04:43:09,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,-1,59.32,EUR,RO,2026-09-02,invalid quantity
+ORD13206,1868,customer1868@example.com,2026-01-28T00:03:48,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,-1,52.82,EUR,DE,2026-08-30,invalid quantity
+ORD13297,1405,customer1405@example.com,22/05/2026 18:14,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-1,134.88,EUR,RO,2026-08-23,invalid quantity
+ORD13380,873,customer873@example.com,2026-04-23T00:18:31,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,-1,41.84,EUR,DE,2026-08-30,invalid quantity
+ORD13395,273,customer273@example.com,2026-01-03T13:49:35,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,117.34,EUR,HU,2026-09-01,invalid quantity
+ORD13401,1531,customer1531@example.com,2026-03-26T10:49:50,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,114.91,EUR,RO,2026-08-26,invalid quantity
+ORD13420,283,customer283@example.com,2026-01-13T23:46:43,completed,mobile_app,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-1,0,EUR,RO,2026-09-03,invalid quantity
+ORD13442,191,customer191@example.com,2026-01-09T06:50:34,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,-1,51.89,EUR,HU,2026-08-29,invalid quantity
+ORD13493,997,customer997@example.com,03/03/2026 18:27,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-1,32.53,EUR,HU,2026-08-27,invalid quantity
+ORD13498,1691,customer1691@example.com,2026-03-17T22:45:46,completed,marketplace,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-3,64.5,EUR,RO,2026-09-01,invalid quantity
+ORD13527,1217,customer1217@example.com,2026-01-08T08:28:10,completed,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,45.01,EUR,BG,2026-08-23,invalid quantity
+ORD13553,1409,customer1409@example.com,2026-05-13T08:35:30,completed,mobile_app,SKU-SP-002,Adjustable Dumbbell Set,Sports,-1,189.48,EUR,RO,2026-08-27,invalid quantity
+ORD13570,443,customer443@example.com,1782427277,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,-1,52.34,RON,HU,2026-08-23,invalid quantity
+ORD13604,524,customer524@example.com,1781178550,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,-1,29.82,RON,RO,2026-08-28,invalid quantity
+ORD13649,1960,customer1960@example.com,2026-04-26T09:51:27,completed,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-1,27.79,EUR,RO,2026-08-25,invalid quantity
+ORD13684,1372,customer1372@example.com,2026-03-06T13:38:52,completed,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-2,40.74,EUR,RO,2026-08-24,invalid quantity
+ORD13697,419,customer419@example.com,2026-03-26T02:23:19,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-1,157.68,EUR,RO,2026-08-31,invalid quantity
+ORD13715,302,customer302@example.com,2026-03-18T11:29:58,completed,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-3,41.55,EUR,RO,2026-08-24,invalid quantity
+ORD13764,143,customer143@example.com,1770276167,completed,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,-1,53.57,EUR,DE,2026-08-29,invalid quantity
+ORD13802,1706,customer1706@example.com,2026-06-10T13:34:39,completed,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,-1,34.26,RON,RO,2026-08-25,invalid quantity
+ORD13945,582,customer582@example.com,2026-03-20T12:24:14,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-3,43.52,EUR,DE,2026-08-30,invalid quantity
+ORD13956,1331,customer1331@example.com,2026-06-27T14:17:32,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,-2,44.66,EUR,DE,2026-09-03,invalid quantity
+ORD13973,1362,customer1362@example.com,16/02/2026 13:29,completed,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-1,25.85,EUR,RO,2026-09-02,invalid quantity
+ORD13999,713,customer713@example.com,1769852384,completed,marketplace,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-1,58.81,EUR,RO,2026-08-24,invalid quantity
+ORD14118,1333,customer1333@example.com,27/02/2026 08:39,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,-2,19.17,RON,HU,2026-08-31,invalid quantity
+ORD14132,1878,customer1878@example.com,2026-05-21T21:16:28,completed,web,SKU-FA-O03,Running Shoes Pro,Fashion,-1,87.14,EUR,HU,2026-08-26,invalid quantity
+ORD14172,617,customer617@example.com,24/04/2026 15:26,completed,web,SKU-EL-004,4K Action Camera,Electronics,-3,199.95,EUR,DE,2026-08-27,invalid quantity
+ORD14186,1994,customer1994@example.com,1772452575,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,-1,19.58,EUR,RO,2026-09-02,invalid quantity
+ORD14195,1624,customer1624@example.com,2026-03-28T11:24:16,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-3,146.16,EUR,RO,2026-08-31,invalid quantity
+ORD14285,1536,customer1536@example.com,29/05/2026 05:07,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,-1,49.99,EUR,BG,2026-08-30,invalid quantity
+ORD14291,100,customer100@example.com,10/01/2026 23:23,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,-3,40.47,EUR,HU,2026-08-31,invalid quantity
+ORD14298,1428,customer1428@example.com,01/02/2026 01:53,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,-1,23.76,EUR,HU,2026-08-25,invalid quantity
+ORD14364,215,customer215@example.com,2026-04-13T09:36:37,completed,web,SKU-EL-004,4K Action Camera,Electronics,-1,197.32,EUR,BG,2026-09-01,invalid quantity
+ORD14481,1653,customer1653@example.com,22/02/2026 16:50,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-1,136.48,EUR,RO,2026-08-30,invalid quantity
+ORD14522,912,customer912@example.com,2026-04-25T06:05:05,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-1,62.96,EUR,HU,2026-08-23,invalid quantity
+ORD14609,1399,customer1399@example.com,2026-02-12T09:25:53,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-2,30.69,EUR,HU,2026-08-28,invalid quantity
+ORD14616,1038,customer1038@example.com,2026-01-04T20:58:12,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-3,59.47,EUR,RO,2026-08-31,invalid quantity
+ORD14624,1367,customer1367@example.com,1770999766,completed,web,SKU-EL-004,4K Action Camera,Electronics,-1,196.01,EUR,RO,2026-08-27,invalid quantity
+ORD14664,1935,customer1935@example.com,1775716549,completed,marketplace,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-1,65.24,EUR,RO,2026-08-29,invalid quantity
+ORD14679,1206,customer1206@example.com,2026-02-16T12:44:10,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,40.67,RON,DE,2026-08-24,invalid quantity
+ORD14682,729,customer729@example.com,2026-06-23T05:15:35,completed,marketplace,SKU-FA-O03,Running Shoes Pro,Fashion,-1,95.32,EUR,RO,2026-08-29,invalid quantity
+ORD14722,1526,customer1526@example.com,22/02/2026 20:06,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,-1,31.91,EUR,RO,2026-08-23,invalid quantity
+ORD14752,1345,customer1345@example.com,21/03/2026 16:48,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-3,26.54,EUR,RO,2026-08-24,invalid quantity
+ORD14775,1719,customer1719@example.com,17/03/2026 08:15,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,-2,72.94,EUR,HU,2026-08-29,invalid quantity
+ORD14783,900,customer900@example.com,25/01/2026 23:08,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-1,26.19,EUR,BG,2026-08-24,invalid quantity
+ORD14827,1329,customer1329@example.com,13/01/2026 17:44,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,-1,18.68,RON,RO,2026-08-26,invalid quantity
+ORD14874,563,customer563@example.com,2026-01-14T04:08:40,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-2,36.02,EUR,RO,2026-08-30,invalid quantity
+ORD14893,1802,customer1802@example.com,11/04/2026 07:06,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,-1,39.87,EUR,RO,2026-08-27,invalid quantity
+ORD14908,1357,customer1357@example.com,2026-06-19T19:03:40,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,-1,52.62,EUR,DE,2026-09-03,invalid quantity
+ORD14923,1093,customer1093@example.com,2026-05-01T19:59:38,completed,marketplace,SKU-EL-004,4K Action Camera,Electronics,-1,207.63,EUR,HU,2026-08-25,invalid quantity
+ORD14956,1409,customer1409@example.com,1773658724,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,119.45,EUR,DE,2026-09-02,invalid quantity
+ORD15105,1198,customer1198@example.com,2026-05-19T17:51:37,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-1,36.85,EUR,RO,2026-08-26,invalid quantity
+ORD15119,1886,customer1886@example.com,2026-04-16T12:22:22,completed,mobile_app,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,-1,59.35,EUR,RO,2026-09-03,invalid quantity
+ORD15188,1519,customer1519@example.com,2026-01-13T14:35:02,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,-1,152.48,EUR,HU,2026-08-30,invalid quantity
+ORD15188,1519,customer1519@example.com,2026-01-13T14:35:02,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-1,111.97,EUR,HU,2026-08-30,invalid quantity
+ORD15251,154,customer154@example.com,2026-03-26T17:58:18,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-2,28.76,EUR,HU,2026-08-23,invalid quantity
+ORD15404,1619,customer1619@example.com,2026-06-18T04:05:12,completed,mobile_app,SKU-HK-003,Air Fryer 5L,Home & Kitchen,-2,119.42,RON,RO,2026-08-26,invalid quantity
+ORD15434,1560,customer1560@example.com,25/05/2026 06:07,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,-1,33.45,EUR,RO,2026-08-24,invalid quantity
+ORD15552,341,customer341@example.com,31/03/2026 00:12,completed,mobile_app,SKU HK 003,Air Fryer 5L,Home & Kitchen,-1,130.61,EUR,RO,2026-08-24,invalid quantity
+ORD15594,1674,customer1674@example.com,2026-05-15T23:35:08,completed,mobile_app,SKU-EL-004,4K Action Camera,Electronics,-3,183,EUR,RO,2026-08-28,invalid quantity
+ORD15657,43,customer43@example.com,03/06/2026 00:09,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,-1,18.38,EUR,DE,2026-08-28,invalid quantity
+ORD15662,18,customer18@example.com,2026-03-25T20:50:01,completed,marketplace,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,43.56,EUR,RO,2026-09-03,invalid quantity
+ORD15699,591,customer591@example.com,08/05/2026 10:15,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-1,27.72,EUR,HU,2026-08-30,invalid quantity
+ORD15701,276,customer276@example.com,2026-02-18T21:44:07,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,44.86,EUR,DE,2026-08-31,invalid quantity
+ORD15843,1083,customer1083@example.com,24/04/2026 18:46,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,-3,23.11,RON,RO,2026-08-23,invalid quantity
+ORD15843 ,1083,customer1083@example.com,24/04/2026 18:46,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,-3,23.11,RON,RO,2026-08-30,invalid quantity
+ORD15905,189,customer189@example.com,2026-03-23T22:15:27,completed,web,SKU-EL-004,4K Action Camera,Electronics,-2,190.28,EUR,RO,2026-08-31,invalid quantity
+ORD15913,30,customer30@example.com,1777650875,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,-1,31.14,EUR,HU,2026-08-24,invalid quantity
+ORD15926,1891,customer1891@example.com,2026-05-06T13:20:16,completed,marketplace,SKU-BK-001,Atomic Habits (RO ed.),Books,-1,18.93,EUR,HU,2026-09-03,invalid quantity
+ORD15941,672,customer672@example.com,2026-03-15T02:31:36,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,-1,182.18,EUR,RO,2026-08-24,invalid quantity
+ORD15949,357,customer357@example.com,04/01/2026 07:25,completed,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,-1,27.3,EUR,RO,2026-09-03,invalid quantity
+ORD10005,,customer1629@example.com,28/01/2026 04:15,completed,mobile_app,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,36.84,EUR,RO,2026-08-27,missing customer id
+ORD10049,,customer711@example.com,02/02/2026 14:24,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,23.74,EUR,DE,2026-09-02,missing customer id
+ORD10062,,customer926@example.com,28/05/2026 19:25,completed,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,48.35,EUR,DE,2026-08-29,missing customer id
+ORD10068,,customer474@example.com,2026-02-27T11:33:48,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,1,93.08,EUR,RO,2026-09-01,missing customer id
+ORD10098,,customer1589@example.com,1774955206,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,52.03,RON,RO,2026-08-25,missing customer id
+ORD10248,,customer1334@example.com,1767744813,completed,mobile_app,SKU-SP-001,Yoga Mat Premium,Sports,2,31.09,EUR,BG,2026-08-25,missing customer id
+ORD10300,,customer1428@example.com,2026-05-19T17:33:17,completed,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,1,30.93,EUR,HU,2026-09-02,missing customer id
+ORD10311,,customer1298@example.com,2026-02-13T01:32:51,completed,mobile_app,SKU-FA-003,Running Shoes Pro,Fashion,1,97.87,EUR,RO,2026-09-02,missing customer id
+ORD10355,,customer1031@example.com,2026-05-01T19:16:53,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,-1,46.29,EUR,DE,2026-08-31,missing customer id
+ORD10408,,customer365@example.com,1773360812,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,111.36,EUR,BG,2026-09-03,missing customer id
+ORD10439,,customer1593@example.com,25/04/2026 08:38,completed,marketplace,SKU-FA-003,Running Shoes Pro,Fashion,1,89.96,RON,DE,2026-08-26,missing customer id
+ORD10601,,customer1484@example.com,2026-04-28T19:34:18,completed,marketplace,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,-1,42.51,EUR,RO,2026-08-24,missing customer id
+ORD10627,,customer590@example.com,2026-01-14T12:19:40,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,38.33,EUR,BG,2026-08-31,missing customer id
+ORD10689,,customer571@example.com,1775110936,completed,marketplace,SKU-EL-001,Wireless Earbuds X2,Electronics,3,73.15,EUR,RO,2026-09-01,missing customer id
+ORD10706,,customer1192@example.com,03/02/2026 11:20,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,37.92,EUR,RO,2026-08-29,missing customer id
+ORD10766,,customer1825@example.com,2026-03-08T16:29:35,completed,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,1,33.69,EUR,RO,2026-08-23,missing customer id
+ORD10768,,customer336@example.com,2026-03-31T01:36:29,completed,mobile_app,SKU-EL-001,Wireless Earbuds X2,Electronics,2,74.86,EUR,RO,2026-08-24,missing customer id
+ORD10807,,customer304@example.com,1773253311,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,2,44.6,RON,RO,2026-08-24,missing customer id
+ORD10852,,customer1762@example.com,2026-01-19T03:23:19,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,2,25.19,EUR,BG,2026-09-03,missing customer id
+ORD10911,,customer673@example.com,2026-05-14T23:50:09,completed,mobile_app,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,179.28,EUR,RO,2026-08-25,missing customer id
+ORD10993,,customer1890@example.com,19/03/2026 17:04,completed,mobile_app,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,58.84,EUR,RO,2026-08-23,missing customer id
+ORD11002,,customer1591@example.com,2026-03-07T01:55:02,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,178.67,EUR,BG,2026-08-28,missing customer id
+ORD11119,,customer1938@example.com,2026-05-09T12:33:54,completed,web,SKU-EL-004,4K Action Camera,Electronics,1,186.84,EUR,RO,2026-09-01,missing customer id
+ORD11123,,customer1600@example.com,2026-02-03T08:58:58,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,2,154.5,EUR,RO,2026-08-31,missing customer id
+ORD11137,,customer742@example.com,2026-02-03T17:24:46,completed,web,SKU-FA-O03,Running Shoes Pro,Fashion,1,81.06,EUR,RO,2026-09-02,missing customer id
+ORD11220,,customer902@example.com,2026-05-02T20:57:16,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,19.87,EUR,RO,2026-08-27,missing customer id
+ORD11304,,customer1581@example.com,09/01/2026 00:41,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,1,44.49,RON,RO,2026-08-31,missing customer id
+ORD11337,,customer1344@example.com,16/03/2026 18:16,completed,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,30.07,EUR,BG,2026-08-28,missing customer id
+ORD11381,,customer1746@example.com,1773637810,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,1,159.21,RON,HU,2026-08-29,missing customer id
+ORD11443,,customer1741@example.com,2026-02-14T05:19:24,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,2,35.86,RON,HU,2026-09-01,missing customer id
+ORD11473,,customer389@example.com,2026-06-20T05:01:47,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,166.35,EUR,RO,2026-08-25,missing customer id
+ORD11485,,customer249@example.com,2026-05-24T22:14:59,completed,mobile_app,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,118.85,EUR,RO,2026-08-25,missing customer id
+ORD11534,,customer424@example.com,2026-03-05T02:02:14,completed,web,SKU-EL-004,4K Action Camera,Electronics,-1,198.56,EUR,DE,2026-08-28,missing customer id
+ORD11568,,customer524@example.com,2026-01-13T19:31:30,completed,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,3,47.57,EUR,BG,2026-08-30,missing customer id
+ORD11586,,customer661@example.com,24/04/2026 23:28,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,174.84,EUR,RO,2026-08-29,missing customer id
+ORD11726,,customer1637@example.com,2026-06-17T11:06:32,completed,mobile_app,SKU-BE-001,Vitamin C Serum 30ml,Beauty,3,26.7,EUR,RO,2026-08-24,missing customer id
+ORD11738,,customer386@example.com,2026-05-30T02:52:02,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,3,24.13,EUR,DE,2026-08-30,missing customer id
+ORD11842,,customer427@example.com,2026-04-25T09:24:17,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,1,76.08,EUR,DE,2026-08-27,missing customer id
+ORD11900,,customer431@example.com,08/05/2026 16:37,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,20.57,RON,RO,2026-08-28,missing customer id
+ORD11910,,customer654@example.com,1768526853,completed,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,3,25.84,EUR,RO,2026-08-29,missing customer id
+ORD11963,,customer955@example.com,2026-02-16T14:46:08,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,1,156.51,RON,RO,2026-08-24,missing customer id
+ORD11985,,customer1326@example.com,2026-02-07T07:31:34,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,2,20.28,EUR,RO,2026-08-27,missing customer id
+ORD12018,,customer693@example.com,01/06/2026 14:18,completed,mobile_app,SKU-FA-003,Running Shoes Pro,Fashion,1,86.75,RON,RO,2026-09-03,missing customer id
+ORD12241,,customer532@example.com,2026-01-14T04:42:53,completed,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,1,33.07,EUR,RO,2026-08-25,missing customer id
+ORD12284,,customer171@example.com,2026-02-17T21:12:08,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,21.45,EUR,RO,2026-08-28,missing customer id
+ORD12361,,customer587@example.com,22/04/2026 18:31,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,1,132.09,RON,BG,2026-08-25,missing customer id
+ORD12487,,customer1314@example.com,2026-02-14T15:20:53,completed,mobile_app,SKU-FA-002,Women's Wool Coat,Fashion,1,157.77,EUR,BG,2026-08-26,missing customer id
+ORD12555,,customer1621@example.com,1780624719,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,2,158.52,EUR,RO,2026-08-24,missing customer id
+ORD12685,,customer485@example.com,1779457382,completed,mobile_app,SKU-FA-002,Women's Wool Coat,Fashion,1,148.69,RON,HU,2026-08-28,missing customer id
+ORD12741,,customer1794@example.com,1773105119,completed,mobile_app,SKU-BK-001,Atomic Habits (RO ed.),Books,1,21.42,RON,HU,2026-09-03,missing customer id
+ORD12742,,customer1448@example.com,2026-06-03T04:15:32,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,178.21,EUR,RO,2026-08-29,missing customer id
+ORD12900,,customer1966@example.com,2026-01-05T09:08:04,completed,marketplace,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,43.25,EUR,HU,2026-08-25,missing customer id
+ORD12994,,customer1060@example.com,2026-03-10T18:55:34,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,3,183.95,RON,DE,2026-08-25,missing customer id
+ORD12997,,customer980@example.com,2026-04-19T10:35:50,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,50.9,EUR,RO,2026-08-30,missing customer id
+ORD13028,,customer993@example.com,2026-06-24T17:07:27,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,26.4,EUR,BG,2026-08-24,missing customer id
+ORD13064,,customer1583@example.com,1780331531,completed,mobile_app,SKU-SP-002,Adjustable Dumbbell Set,Sports,2,177.35,EUR,RO,2026-08-26,missing customer id
+ORD13133,,customer1715@example.com,2026-06-23T21:23:46,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,30.75,EUR,HU,2026-08-27,missing customer id
+ORD13148,,customer294@example.com,2026-02-13T02:15:13,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,2,21.92,EUR,HU,2026-09-03,missing customer id
+ORD13302,,customer241@example.com,2026-01-18T06:27:00,completed,marketplace,SKU-BE-001,Vitamin C Serum 30ml,Beauty,2,24.83,EUR,RO,2026-08-28,missing customer id
+ORD13436,,customer159@example.com,2026-01-24T06:50:13,completed,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,19.54,EUR,RO,2026-08-27,missing customer id
+ORD13450,,customer1416@example.com,09/04/2026 16:31,completed,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,28.21,EUR,HU,2026-08-30,missing customer id
+ORD13515,,customer1964@example.com,06/05/2026 20:30,refunded,web,SKU-BK-002,The Pragmatic Programmer,Books,1,41.05,EUR,RO,2026-09-03,missing customer id
+ORD13516,,customer662@example.com,1776435245,completed,mobile_app,SKU-FA-003,Running Shoes Pro,Fashion,1,83.46,EUR,HU,2026-08-28,missing customer id
+ORD13544,,customer1888@example.com,22/03/2026 10:30,completed,mobile_app,SKU-BK-002,The Pragmatic Programmer,Books,1,42.83,EUR,RO,2026-09-03,missing customer id
+ORD13565,,customer995@example.com,2026-03-23T14:30:15,completed,mobile_app,SKU-FA-001,Men's Slim Fit Jeans,Fashion,2,53.39,RON,BG,2026-08-25,missing customer id
+ORD13750,,customer117@example.com,2026-05-21T01:39:05,completed,web,SKU HK 003,Air Fryer 5L,Home & Kitchen,3,120.85,EUR,DE,2026-09-02,missing customer id
+ORD13817,,customer434@example.com,15/01/2026 23:35,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,52.64,EUR,DE,2026-08-25,missing customer id
+ORD13948,,customer1966@example.com,23/02/2026 20:42,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,50.71,EUR,RO,2026-08-31,missing customer id
+ORD14020,,customer602@example.com,1780819769,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,53.15,EUR,DE,2026-08-26,missing customer id
+ORD14044,,customer1977@example.com,2026-01-18T01:22:16,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,188.35,EUR,RO,2026-08-28,missing customer id
+ORD14120,,customer1487@example.com,1769602059,refunded,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,53.44,EUR,HU,2026-08-24,missing customer id
+ORD14149,,customer1728@example.com,2026-03-04T09:15:11,completed,web,SKU-FA-003,Running Shoes Pro,Fashion,2,89.63,EUR,RO,2026-08-29,missing customer id
+ORD14235,,customer1660@example.com,2026-02-10T08:22:10,completed,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,44.09,EUR,RO,2026-08-31,missing customer id
+ORD14245,,customer96@example.com,01/03/2026 18:16,completed,marketplace,SKU-FA-003,Running Shoes Pro,Fashion,1,81.43,EUR,RO,2026-09-02,missing customer id
+ORD14269,,customer978@example.com,2026-04-27T06:47:34,completed,marketplace,SKU HK 003,Air Fryer 5L,Home & Kitchen,1,129.55,RON,RO,2026-08-26,missing customer id
+ORD14374,,customer1636@example.com,2026-03-12T23:09:33,completed,marketplace,SKU-FA-002,Women's Wool Coat,Fashion,2,141.3,EUR,DE,2026-08-30,missing customer id
+ORD14475,,customer1979@example.com,2026-04-02T07:14:27,completed,web,SKU-BK-002,The Pragmatic Programmer,Books,1,45.22,EUR,BG,2026-08-24,missing customer id
+ORD14476,,customer1804@example.com,1780515717,completed,marketplace,SKU-HK-003,Air Fryer 5L,Home & Kitchen,3,114.49,EUR,RO,2026-08-28,missing customer id
+ORD14643,,customer754@example.com,2026-06-14T22:15:37,completed,web,SKU-FA-O03,Running Shoes Pro,Fashion,1,90.78,EUR,RO,2026-08-29,missing customer id
+ORD14662,,customer42@example.com,26/01/2026 11:02,refunded,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,3,41.75,EUR,RO,2026-08-28,missing customer id
+ORD14744,,customer1190@example.com,1781315292,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,55.31,EUR,RO,2026-08-27,missing customer id
+ORD14785,,customer837@example.com,2026-06-23T00:40:25,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,3,187.26,EUR,RO,2026-08-27,missing customer id
+ORD14832,,customer1582@example.com,06/04/2026 04:39,completed,web,SKU-SP-001,Yoga Mat Premium,Sports,1,30.07,RON,RO,2026-08-24,missing customer id
+ORD14901,,customer1200@example.com,2026-04-11T09:44:40,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,30.29,EUR,DE,2026-08-25,missing customer id
+ORD14902,,customer1013@example.com,2026-06-09T09:49:39,refunded,mobile_app,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,182.77,EUR,BG,2026-09-02,missing customer id
+ORD15051,,customer622@example.com,2026-01-29T08:18:27,completed,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,29.95,EUR,RO,2026-08-25,missing customer id
+ORD15138,,customer309@example.com,2026-04-24T02:50:49,completed,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,44.79,EUR,RO,2026-08-25,missing customer id
+ORD15248,,customer871@example.com,2026-06-24T23:44:10,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,52.89,EUR,DE,2026-08-26,missing customer id
+ORD15254,,customer458@example.com,05/02/2026 04:58,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,1,66.97,EUR,BG,2026-08-31,missing customer id
+ORD15258,,customer1125@example.com,1770990995,completed,mobile_app,SKU-FA-003,Running Shoes Pro,Fashion,1,83.54,EUR,RO,2026-08-27,missing customer id
+ORD15278,,customer1010@example.com,2026-06-16T18:08:55,completed,web,SKU-FA-002,Women's Wool Coat,Fashion,1,130.98,EUR,RO,2026-08-30,missing customer id
+ORD15368,,customer1011@example.com,2026-05-09T13:15:58,completed,marketplace,SKU-EL-001,Wireless Earbuds X2,Electronics,1,83.47,RON,RO,2026-09-03,missing customer id
+ORD15385,,customer1795@example.com,2026-03-10T08:19:39,completed,web,SKU-EL-004,4K Action Camera,Electronics,2,191.62,EUR,BG,2026-08-24,missing customer id
+ORD15408,,customer711@example.com,1776474922,completed,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,53.32,EUR,HU,2026-08-31,missing customer id
+ORD15448,,customer741@example.com,1770908698,completed,mobile_app,SKU-EL-001,Wireless Earbuds X2,Electronics,1,85.31,RON,RO,2026-08-29,missing customer id
+ORD15967,,customer48@example.com,2026-02-23T17:43:14,completed,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,54.69,EUR,HU,2026-08-27,missing customer id
+ORD10065,433,customer433@example.com,2026-04-25T12:10:04,completed,web,SKU-BK-001,Atomic Habits (RO ed.),,1,18.49,EUR,RO,2026-08-23,missing category
+ORD10093,1519,customer1519@example.com,12/06/2026 13:35,completed,web,SKU-FA-001,Men's Slim Fit Jeans,,1,56.08,EUR,RO,2026-09-01,missing category
+ORD10404,1403,customer1403@example.com,1777526807,completed,web,SKU-HK-003,Air Fryer 5L,,3,129.16,EUR,HU,2026-08-31,missing category
+ORD10412,1368,customer1368@example.com,2026-01-13T14:42:42,completed,marketplace,SKU-BK-001,Atomic Habits (RO ed.),,1,18.79,RON,RO,2026-08-28,missing category
+ORD10556,686,customer686@example.com,2026-06-21T16:45:35,completed,marketplace,SKU-HK-003,Air Fryer 5L,,2,117.05,EUR,HU,2026-09-03,missing category
+ORD10688,216,customer216@example.com,09/03/2026 07:19,completed,web,SKU-SP-002,Adjustable Dumbbell Set,,1,157.6,RON,RO,2026-08-29,missing category
+ORD10704,1540,customer1540@example.com,2026-02-05T03:12:24,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,,1,30.82,EUR,RO,2026-08-25,missing category
+ORD10889,257,customer257@example.com,1776761518,refunded,marketplace,SKU-BE-002,Hair Dryer Ionic 2200W,,1,58.56,EUR,DE,2026-09-02,missing category
+ORD10899,283,customer283@example.com,15/01/2026 07:20,completed,web,SKU-EL-001,Wireless Earbuds X2,,1,72.7,EUR,RO,2026-09-01,missing category
+ORD10944,539,customer539@example.com,27/02/2026 23:43,completed,web,SKU-EL-001,Wireless Earbuds X2,,3,76.08,EUR,RO,2026-08-29,missing category
+ORD11114,1080,customer1080@example.com,2026-01-09T19:55:51,completed,mobile_app,SKU-FA-002,Women's Wool Coat,,2,158.54,EUR,RO,2026-08-28,missing category
+ORD11196,1455,customer1455@example.com,1774427629,refunded,web,SKU-EL-001,Wireless Earbuds X2,,3,74.14,EUR,BG,2026-08-24,missing category
+ORD11207,,customer1067@example.com,2026-05-26T06:43:00,completed,marketplace,SKU-BK-002,The Pragmatic Programmer,,1,43.08,EUR,BG,2026-09-03,missing category
+ORD11232,1983,customer1983@example.com,1778343823,completed,web,SKU-SP-002,Adjustable Dumbbell Set,,1,191.51,EUR,RO,2026-08-25,missing category
+ORD11335,547,customer547@example.com,1777635021,completed,web,SKU-BK-001,Atomic Habits (RO ed.),,3,20.69,EUR,BG,2026-08-29,missing category
+ORD11338,1252,customer1252@example.com,2026-06-20T14:04:59,completed,marketplace,SKU-BK-001,Atomic Habits (RO ed.),,2,19.39,RON,RO,2026-09-02,missing category
+ORD11491,1824,customer1824@example.com,2026-05-12T23:19:13,completed,web,SKU-SP-002,Adjustable Dumbbell Set,,3,173.89,RON,RO,2026-09-03,missing category
+ORD11625,1858,customer1858@example.com,19/04/2026 08:21,completed,web,SKU-HK-001,Stainless Steel Kettle,,1,40.51,EUR,RO,2026-09-03,missing category
+ORD11654,1217,customer1217@example.com,05/03/2026 03:50,completed,web,SKU-EL-001,Wireless Earbuds X2,,2,79.76,EUR,RO,2026-08-25,missing category
+ORD11700,1106,customer1106@example.com,2026-05-26T03:24:40,completed,web,SKU-SP-002,Adjustable Dumbbell Set,,2,170.45,EUR,RO,2026-08-29,missing category
+ORD11717,197,customer197@example.com,2026-05-07T21:38:40,completed,web,SKU-FA-003,Running Shoes Pro,,1,93.85,EUR,DE,2026-09-01,missing category
+ORD11800,1548,customer1548@example.com,2026-02-04T05:11:06,completed,web,SKU-EL-003,Bluetooth Speaker Mini,,1,47.23,EUR,BG,2026-09-01,missing category
+ORD11841,1736,customer1736@example.com,2026-05-05T08:37:41,completed,web,SKU-BE-001,Vitamin C Serum 30ml,,2,25.43,RON,RO,2026-08-28,missing category
+ORD11842,427,customer427@example.com,2026-04-25T09:24:17,completed,web,SKU-HK-001,Stainless Steel Kettle,,1,41.27,EUR,DE,2026-08-27,missing category
+ORD11858,1337,customer1337@example.com,2026-02-03T02:03:41,refunded,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,,2,29.16,RON,BG,2026-08-26,missing category
+ORD11877,1676,customer1676@example.com,01/05/2026 00:02,completed,marketplace,SKU-BK-002,The Pragmatic Programmer,,1,44.35,EUR,DE,2026-08-30,missing category
+ORD11893,1864,customer1864@example.com,1767460634,completed,web,SKU-FA-O03,Running Shoes Pro,,1,90.8,EUR,BG,2026-09-02,missing category
+ORD11919,187,customer187@example.com,2026-05-20T13:34:24,completed,web,SKU-HK-001,Stainless Steel Kettle,,1,39.12,EUR,DE,2026-08-30,missing category
+ORD11973,538,customer538@example.com,05/05/2026 17:19,completed,web,SKUEL001,Wireless Earbuds X2,,1,81.39,EUR,RO,2026-08-28,missing category
+ORD12203,1055,customer1055@example.com,2026-01-27T08:16:47,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,,1,61.62,EUR,BG,2026-09-01,missing category
+ORD12220,1248,customer1248@example.com,2026-02-23T17:47:15,completed,web,SKU-EL-003,Bluetooth Speaker Mini,,1,44.53,EUR,RO,2026-08-24,missing category
+ORD12274,463,customer463@example.com,2026-02-03T21:16:00,completed,mobile_app,SKU-FA-003,Running Shoes Pro,,1,94.52,RON,DE,2026-08-24,missing category
+ORD12410,1328,customer1328@example.com,2026-02-06T03:22:13,completed,web,SKU-HK-003,Air Fryer 5L,,1,129.43,EUR,RO,2026-08-30,missing category
+ORD12756,353,customer353@example.com,2026-04-08T07:54:09,completed,web,SKU-EL-001,Wireless Earbuds X2,,2,83.21,EUR,HU,2026-08-27,missing category
+ORD12784,698,customer698@example.com,2026-01-10T22:48:55,completed,marketplace,SKU-FA-O03,Running Shoes Pro,,1,88.42,EUR,RO,2026-08-26,missing category
+ORD12785,1558,customer1558@example.com,2026-02-17T15:24:56,completed,web,SKU-EL-001,Wireless Earbuds X2,,3,72.32,RON,BG,2026-08-23,missing category
+ORD12804,1364,customer1364@example.com,2026-05-26T01:19:38,refunded,web,SKU-HK-003,Air Fryer 5L,,1,107.88,EUR,RO,2026-08-30,missing category
+ORD12845,1492,customer1492@example.com,2026-03-02T21:02:19,completed,mobile_app,SKU-HK-001,Stainless Steel Kettle,,1,43.36,EUR,RO,2026-08-31,missing category
+ORD13008,1132,customer1132@example.com,2026-03-12T04:24:33,completed,web,SKU-EL-001,Wireless Earbuds X2,,-2,75.61,EUR,BG,2026-08-28,missing category
+ORD13035,1500,customer1500@example.com,2026-05-01T15:27:00,refunded,web,SKU-BE-001,Vitamin C Serum 30ml,,1,24.28,RON,RO,2026-08-26,missing category
+ORD13120,5,customer5@example.com,28/04/2026 14:03,completed,marketplace,SKU-EL-002,USB-C Fast Charger 65W,,1,35,EUR,DE,2026-08-30,missing category
+ORD13273,357,customer357@example.com,2026-02-17T12:28:09,completed,marketplace,SKU-EL-002,USB-C Fast Charger 65W,,1,36.64,EUR,RO,2026-08-27,missing category
+ORD13309,103,customer103@example.com,1767250582,completed,marketplace,SKU-FA-001,Men's Slim Fit Jeans,,1,59.93,RON,RO,2026-08-27,missing category
+ORD13321,284,customer284@example.com,2026-05-03T06:50:45,completed,mobile_app,SKU-SP-001,Yoga Mat Premium,,1,30.31,EUR,RO,2026-08-26,missing category
+ORD13330,1688,customer1688@example.com,2026-06-03T08:38:43,completed,mobile_app,SKU-HK-003,Air Fryer 5L,,1,112.74,RON,RO,2026-08-24,missing category
+ORD13394,1468,customer1468@example.com,07/04/2026 23:26,completed,web,SKU-HK-002,Non-stick Frying Pan 28cm,,2,29.22,EUR,RO,2026-08-24,missing category
+ORD13519,1233,customer1233@example.com,2026-04-24T12:34:41,completed,mobile_app,SKU-EL-002,USB-C Fast Charger 65W,,1,35.61,RON,HU,2026-08-25,missing category
+ORD13664,1535,customer1535@example.com,2026-05-25T10:27:35,completed,mobile_app,SKU-EL-003,Bluetooth Speaker Mini,,1,46.98,EUR,DE,2026-08-29,missing category
+ORD13728,1592,customer1592@example.com,1778057034,completed,web,SKU-FA-001,Men's Slim Fit Jeans,,2,51.63,EUR,RO,2026-08-26,missing category
+ORD13830,166,customer166@example.com,2026-03-29T13:49:54,completed,web,SKU-FA-001,Men's Slim Fit Jeans,,1,54.54,EUR,BG,2026-08-27,missing category
+ORD13884,1427,customer1427@example.com,1782268995,completed,marketplace,SKU-EL-003,Bluetooth Speaker Mini,,1,47.98,EUR,BG,2026-08-27,missing category
+ORD13962,1949,customer1949@example.com,2026-05-31T21:08:03,completed,web,SKU-SP-002,Adjustable Dumbbell Set,,3,187.32,EUR,HU,2026-09-02,missing category
+ORD14114,1015,customer1015@example.com,23/01/2026 09:53,completed,mobile_app,SKU-FA-002,Women's Wool Coat,,1,151.83,EUR,RO,2026-08-24,missing category
+ORD14214,1164,customer1164@example.com,2026-04-11T17:42:54,completed,web,SKU-BK-002,The Pragmatic Programmer,,1,41.94,EUR,DE,2026-08-29,missing category
+ORD14428,1055,customer1055@example.com,2026-06-27T11:46:26,completed,marketplace,SKU-EL-004,4K Action Camera,,2,172.24,EUR,RO,2026-08-28,missing category
+ORD14432,510,customer510@example.com,2026-05-24T18:20:46,completed,web,SKU-EL-003,Bluetooth Speaker Mini,,1,51.71,RON,RO,2026-08-30,missing category
+ORD14468,91,customer91@example.com,1781962512,completed,marketplace,SKU-FA-001,Men's Slim Fit Jeans,,1,52.69,EUR,RO,2026-08-23,missing category
+ORD14557,612,customer612@example.com,2026-04-26T21:14:30,completed,web,SKU-BE-002,Hair Dryer Ionic 2200W,,1,69.38,EUR,RO,2026-08-23,missing category
+ORD14722,1526,customer1526@example.com,22/02/2026 20:06,completed,web,SKU-HK-003,Air Fryer 5L,,1,111.63,EUR,RO,2026-08-23,missing category
+ORD14761,1649,customer1649@example.com,24/04/2026 06:33,completed,mobile_app,SKU-EL-004,4K Action Camera,,1,183.29,RON,RO,2026-08-23,missing category
+ORD14762,430,customer430@example.com,1773233176,completed,web,SKU-EL-004,4K Action Camera,,1,197.64,RON,RO,2026-09-03,missing category
+ORD14804,1531,customer1531@example.com,2026-05-22T22:51:20,completed,web,SKU-FA-002,Women's Wool Coat,,3,141.22,EUR,RO,2026-08-25,missing category
+ORD14839,1,customer1@example.com,27/03/2026 00:53,completed,web,SKU-HK-001,Stainless Steel Kettle,,1,39.16,EUR,RO,2026-08-24,missing category
+ORD15053,1267,customer1267@example.com,1779860504,completed,mobile_app,SKU-FA-001,Men's Slim Fit Jeans,,1,55.1,EUR,RO,2026-08-24,missing category
+ORD15059,1000,customer1000@example.com,10/03/2026 13:43,completed,web,SKU-EL-001,Wireless Earbuds X2,,1,73.53,EUR,HU,2026-08-24,missing category
+ORD15123,1514,customer1514@example.com,2026-03-19T07:21:04,completed,marketplace,SKU HK 003,Air Fryer 5L,,1,125.88,EUR,DE,2026-09-01,missing category
+ORD15126,1635,customer1635@example.com,16/01/2026 18:52,completed,web,SKU-BK-002,The Pragmatic Programmer,,2,43.2,EUR,RO,2026-08-30,missing category
+ORD15229,54,customer54@example.com,2026-05-22T02:32:29,completed,mobile_app,SKU-BE-002,Hair Dryer Ionic 2200W,,1,59.05,EUR,RO,2026-08-24,missing category
+ORD15363,836,customer836@example.com,03/02/2026 17:34,completed,marketplace,SKU-EL-001,Wireless Earbuds X2,,1,81.06,EUR,RO,2026-08-29,missing category
+ORD15509,32,customer32@example.com,2026-04-21T15:11:23,completed,web,SKU-BK-002,The Pragmatic Programmer,,1,40.05,EUR,BG,2026-09-01,missing category
+ORD15510,889,customer889@example.com,2026-02-16T00:37:16,completed,marketplace,SKU-BK-002,The Pragmatic Programmer,,2,45.55,EUR,RO,2026-08-27,missing category
+ORD15531,613,customer613@example.com,22/04/2026 09:43,completed,web,SKU-EL-001,Wireless Earbuds X2,,1,80.3,EUR,DE,2026-08-23,missing category
+ORD15566,492,customer492@example.com,01/02/2026 14:16,completed,web,SKU-BK-002,The Pragmatic Programmer,,1,44.05,EUR,BG,2026-08-26,missing category
+ORD15801,297,customer297@example.com,20/02/2026 21:33,completed,mobile_app,SKU-FA-003,Running Shoes Pro,,1,86.35,EUR,HU,2026-08-24,missing category
+ORD15864,1042,customer1042@example.com,2026-01-03T22:26:32,completed,mobile_app,SKU-SP-002,Adjustable Dumbbell Set,,1,192.12,EUR,RO,2026-09-02,missing category
+ORD15867,1323,customer1323@example.com,03/06/2026 04:03,completed,web,SKU-EL-002,USB-C Fast Charger 65W,,1,33.47,EUR,HU,2026-08-31,missing category
+ORD15877,1536,customer1536@example.com,12/04/2026 08:31,completed,web,SKU-EL-002,USB-C Fast Charger 65W,,1,35.3,RON,RO,2026-09-01,missing category
+ORD10087,1392,internal.tester1392@aqurate.ai,2026-06-20T11:14:40,test,mobile_app,SKU-EL-003,Bluetooth Speaker Mini,Electronics,2,52.84,EUR,RO,2026-08-24,test order
+ORD10087,1392,internal.tester1392@aqurate.ai,2026-06-20T11:14:40,test,mobile_app,SKU-EL-004,4K Action Camera,Electronics,1,173.2,EUR,RO,2026-08-24,test order
+ORD10135,1808,internal.tester1808@aqurate.ai,2026-02-18T13:28:04,test,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,18.33,RON,BG,2026-08-26,test order
+ORD10346,369,internal.tester369@aqurate.ai,25/03/2026 09:05,test,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,2,60.09,EUR,RO,2026-08-24,test order
+ORD10346,369,internal.tester369@aqurate.ai,25/03/2026 09:05,test,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,47.88,EUR,RO,2026-08-24,test order
+ORD10557,1027,internal.tester1027@aqurate.ai,2026-01-29T16:49:30,test,marketplace,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,129.71,EUR,RO,2026-08-30,test order
+ORD10594,,internal.tester428@aqurate.ai,2026-06-07T10:04:34,test,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,3,161.69,RON,RO,2026-09-03,test order
+ORD10594,428,internal.tester428@aqurate.ai,2026-06-07T10:04:34,test,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,45.56,RON,RO,2026-09-03,test order
+ORD10635,125,internal.tester125@aqurate.ai,29/06/2026 03:22,test,web,SKU-BK-001,Atomic Habits (RO ed.),Books,3,21.48,EUR,RO,2026-08-25,test order
+ORD10635,125,internal.tester125@aqurate.ai,29/06/2026 03:22,test,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,50.4,EUR,RO,2026-08-25,test order
+ORD10823,1962,internal.tester1962@aqurate.ai,18/01/2026 08:56,test,web,SKU-BK-002,The Pragmatic Programmer,Books,2,41.72,EUR,RO,2026-08-24,test order
+ORD10989,1808,internal.tester1808@aqurate.ai,2026-06-23T21:24:38,test,marketplace,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,26.93,RON,RO,2026-08-29,test order
+ORD10989,1808,internal.tester1808@aqurate.ai,2026-06-23T21:24:38,test,marketplace,SKU-FA-002,Women's Wool Coat,Fashion,1,141.75,RON,RO,2026-08-29,test order
+ORD10989,1808,internal.tester1808@aqurate.ai,2026-06-23T21:24:38,test,marketplace,SKU-SP-002,Adjustable Dumbbell Set,Sports,2,166.21,RON,RO,2026-08-29,test order
+ORD11028,291,internal.tester291@aqurate.ai,2026-04-25T14:57:11,test,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,3,50.2,EUR,BG,2026-09-03,test order
+ORD11028,291,internal.tester291@aqurate.ai,2026-04-25T14:57:11,test,web,SKU-FA-002,Women's Wool Coat,Fashion,1,139.2,EUR,BG,2026-09-03,test order
+ORD11201,482,internal.tester482@aqurate.ai,22/02/2026 15:00,test,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,2,25.87,RON,RO,2026-09-01,test order
+ORD11250,1837,internal.tester1837@aqurate.ai,1780798453,test,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,2,26.07,EUR,BG,2026-08-28,test order
+ORD11306,1392,internal.tester1392@aqurate.ai,1777437900,test,web,SKU-BK-002,The Pragmatic Programmer,Books,2,40.79,EUR,RO,2026-08-30,test order
+ORD11306,1392,internal.tester1392@aqurate.ai,1777437900,test,web,SKU-FA-003,Running Shoes Pro,Fashion,1,93.27,EUR,RO,2026-08-30,test order
+ORD11307,1169,internal.tester1169@aqurate.ai,2026-06-17T00:43:11,test,web,SKU-BK-002,The Pragmatic Programmer,Books,2,46.36,RON,RO,2026-08-27,test order
+ORD11307,1169,internal.tester1169@aqurate.ai,2026-06-17T00:43:11,test,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,2,52.36,RON,RO,2026-08-27,test order
+ORD11312,1837,internal.tester1837@aqurate.ai,1775567908,test,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,45.87,RON,RO,2026-08-25,test order
+ORD11322,1808,internal.tester1808@aqurate.ai,2026-03-13T03:20:34,test,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,3,165.19,EUR,RO,2026-08-28,test order
+ORD11371,1837,internal.tester1837@aqurate.ai,2026-03-13T02:59:25,test,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,19.78,EUR,RO,2026-09-01,test order
+ORD11371,1837,internal.tester1837@aqurate.ai,2026-03-13T02:59:25,test,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,2,38.98,EUR,RO,2026-09-01,test order
+ORD11566,1837,internal.tester1837@aqurate.ai,2026-04-12T21:53:37,test,web,SKU-EL-001,Wireless Earbuds X2,Electronics,1,84.79,EUR,RO,2026-08-27,test order
+ORD11760,395,internal.tester395@aqurate.ai,2026-06-22T13:56:33,test,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,29.65,EUR,RO,2026-08-30,test order
+ORD11799,1808,internal.tester1808@aqurate.ai,1767969915,test,mobile_app,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,31.44,EUR,HU,2026-09-03,test order
+ORD11799,1808,internal.tester1808@aqurate.ai,1767969915,test,mobile_app,SKU-FA-002,Women's Wool Coat,Fashion,1,141.65,EUR,HU,2026-09-03,test order
+ORD11799,1808,internal.tester1808@aqurate.ai,1767969915,test,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,31.35,EUR,HU,2026-09-03,test order
+ORD11828,395,internal.tester395@aqurate.ai,2026-02-06T14:12:15,test,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,38.35,EUR,BG,2026-08-27,test order
+ORD11872,369,internal.tester369@aqurate.ai,2026-05-07T00:21:58,test,mobile_app,SKU-BK-001,Atomic Habits (RO ed.),Books,1,18.87,EUR,HU,2026-08-25,test order
+ORD11872,369,internal.tester369@aqurate.ai,2026-05-07T00:21:58,test,mobile_app,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,46.02,EUR,HU,2026-08-25,test order
+ORD12072,395,internal.tester395@aqurate.ai,26/02/2026 23:17,test,web,SKU-BK-002,The Pragmatic Programmer,Books,2,41.1,EUR,BG,2026-08-27,test order
+ORD12407,883,internal.tester883@aqurate.ai,1772259158,test,mobile_app,SKU-BE-001,Vitamin C Serum 30ml,Beauty,3,25.11,EUR,DE,2026-08-31,test order
+ORD12407,883,internal.tester883@aqurate.ai,1772259158,test,mobile_app,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,49.53,EUR,DE,2026-08-31,test order
+ORD12407,883,internal.tester883@aqurate.ai,1772259158,test,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,3,30.96,EUR,DE,2026-08-31,test order
+ORD12722,883,internal.tester883@aqurate.ai,19/04/2026 09:52,test,marketplace,SKU-FA-003,Running Shoes Pro,Fashion,2,92.29,RON,RO,2026-08-25,test order
+ORD12757,883,internal.tester883@aqurate.ai,2026-06-02T01:49:40,test,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,28.68,EUR,RO,2026-08-30,test order
+ORD12855,291,internal.tester291@aqurate.ai,2026-04-05T05:29:18,test,web,SKU-FA-002,Women's Wool Coat,Fashion,1,134.95,EUR,RO,2026-09-01,test order
+ORD12855,291,internal.tester291@aqurate.ai,2026-04-05T05:29:18,test,web,SKU-FA-O03,Running Shoes Pro,Fashion,1,92.43,EUR,RO,2026-09-01,test order
+ORD13051,125,internal.tester125@aqurate.ai,2026-03-28T14:51:40,test,web,SKU-FA-003,Running Shoes Pro,Fashion,1,88.02,EUR,RO,2026-08-28,test order
+ORD13076,125,internal.tester125@aqurate.ai,1774210765,test,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,27.13,EUR,BG,2026-09-02,test order
+ORD13076,125,internal.tester125@aqurate.ai,1774210765,test,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,1,30.84,EUR,BG,2026-09-02,test order
+ORD13083,125,internal.tester125@aqurate.ai,2026-06-23T18:04:41,test,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,45.19,EUR,BG,2026-08-26,test order
+ORD13083,125,internal.tester125@aqurate.ai,2026-06-23T18:04:41,test,web,SKUEL001,Wireless Earbuds X2,Electronics,1,78.67,EUR,BG,2026-08-26,test order
+ORD13096,270,internal.tester270@aqurate.ai,2026-02-13T12:21:47,test,web,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,1,61.34,RON,BG,2026-09-02,test order
+ORD13114,369,internal.tester369@aqurate.ai,08/01/2026 19:41,test,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,1,26.68,RON,RO,2026-08-30,test order
+ORD13126,428,internal.tester428@aqurate.ai,18/05/2026 23:02,test,marketplace,SKU-EL-001,Wireless Earbuds X2,Electronics,1,82.14,EUR,RO,2026-08-24,test order
+ORD13126,428,internal.tester428@aqurate.ai,18/05/2026 23:02,test,marketplace,SKU-FA-002,Women's Wool Coat,Fashion,2,136.75,EUR,RO,2026-08-24,test order
+ORD13283,1837,internal.tester1837@aqurate.ai,2026-04-30T09:50:12,test,web,SKU-EL-004,4K Action Camera,Electronics,3,206.51,EUR,BG,2026-09-02,test order
+ORD13452,1134,internal.tester1134@aqurate.ai,2026-02-09T19:52:11,test,mobile_app,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,28.4,EUR,RO,2026-08-25,test order
+ORD13562,883,internal.tester883@aqurate.ai,18/02/2026 18:18,test,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,50.55,RON,RO,2026-08-27,test order
+ORD13644,1169,internal.tester1169@aqurate.ai,2026-02-02T21:07:42,test,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,36.8,EUR,RO,2026-09-02,test order
+ORD13644,1169,internal.tester1169@aqurate.ai,2026-02-02T21:07:42,test,web,SKU-EL-004,4K Action Camera,Electronics,2,181.98,EUR,RO,2026-09-02,test order
+ORD13760,270,internal.tester270@aqurate.ai,16/03/2026 20:02,test,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,19.95,EUR,RO,2026-08-27,test order
+ORD13760,270,internal.tester270@aqurate.ai,16/03/2026 20:02,test,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,179.76,EUR,RO,2026-08-27,test order
+ORD13808,,internal.tester369@aqurate.ai,2026-04-25T21:37:36,test,marketplace,SKU-EL-003,Bluetooth Speaker Mini,Electronics,1,50.46,EUR,HU,2026-08-26,test order
+ORD13862,1134,internal.tester1134@aqurate.ai,2026-06-06T15:28:57,test,web,SKU-EL-004,4K Action Camera,Electronics,1,186.94,EUR,RO,2026-08-27,test order
+ORD13862,1134,internal.tester1134@aqurate.ai,2026-06-06T15:28:57,test,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,3,39.73,EUR,RO,2026-08-27,test order
+ORD13887,428,internal.tester428@aqurate.ai,2026-06-06T21:09:30,test,marketplace,SKU-BK-001,Atomic Habits (RO ed.),Books,1,20.84,EUR,RO,2026-08-24,test order
+ORD13887,428,internal.tester428@aqurate.ai,2026-06-06T21:09:30,test,marketplace,SKU-FA-003,Running Shoes Pro,Fashion,1,97.11,EUR,RO,2026-08-24,test order
+ORD13887,428,internal.tester428@aqurate.ai,2026-06-06T21:09:30,test,marketplace,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,44.06,EUR,RO,2026-08-24,test order
+ORD13940,125,internal.tester125@aqurate.ai,2026-02-03T17:14:42,test,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,26,RON,HU,2026-09-01,test order
+ORD14075,1134,internal.tester1134@aqurate.ai,2026-01-10T05:33:02,test,web,SKU-BK-002,The Pragmatic Programmer,Books,1,43.12,EUR,DE,2026-08-25,test order
+ORD14075,1134,internal.tester1134@aqurate.ai,2026-01-10T05:33:02,test,web,SKU-EL-004,4K Action Camera,Electronics,1,170.99,EUR,DE,2026-08-25,test order
+ORD14102,1175,internal.tester1175@aqurate.ai,10/04/2026 14:23,test,web,SKU-HK-001,Stainless Steel Kettle,Home & Kitchen,1,43.77,RON,DE,2026-09-01,test order
+ORD14265,298,internal.tester298@aqurate.ai,2026-01-19T03:53:49,test,web,SKU-SP-001,Yoga Mat Premium,Sports,2,28.89,RON,RO,2026-09-02,test order
+ORD14265,298,internal.tester298@aqurate.ai,2026-01-19T03:53:49,test,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,157.74,RON,RO,2026-09-02,test order
+ORD14270,,internal.tester428@aqurate.ai,18/06/2026 04:47,test,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,3,56.21,EUR,BG,2026-08-30,test order
+ORD14376,20,internal.tester20@aqurate.ai,2026-06-26T14:13:08,test,marketplace,SKU-SP-001,Yoga Mat Premium,Sports,2,31.66,RON,HU,2026-08-29,test order
+ORD14387,291,internal.tester291@aqurate.ai,2026-01-23T20:11:59,test,marketplace,SKU-BK-001,Atomic Habits (RO ed.),Books,2,21.36,RON,RO,2026-09-03,test order
+ORD14387,291,internal.tester291@aqurate.ai,2026-01-23T20:11:59,test,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,26.82,RON,RO,2026-09-03,test order
+ORD14526,1837,internal.tester1837@aqurate.ai,2026-04-27T23:41:16,test,web,SKU-FA-002,Women's Wool Coat,Fashion,1,157.32,EUR,HU,2026-09-03,test order
+ORD14578,482,internal.tester482@aqurate.ai,2026-05-22T10:19:28,test,mobile_app,SKU-BE-001,Vitamin C Serum 30ml,Beauty,3,23.8,EUR,RO,2026-08-24,test order
+ORD14623,1962,internal.tester1962@aqurate.ai,2026-06-09T01:16:18,test,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,2,36.21,EUR,RO,2026-08-29,test order
+ORD14667,270,internal.tester270@aqurate.ai,1770070930,test,web,SKU-FA-001,Men's Slim Fit Jeans,Fashion,1,60.26,EUR,BG,2026-08-26,test order
+ORD14667,270,internal.tester270@aqurate.ai,1770070930,test,web,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,1,26.84,EUR,BG,2026-08-26,test order
+ORD14718,20,internal.tester20@aqurate.ai,2026-05-10T20:54:08,test,marketplace,SKU-BE-001,Vitamin C Serum 30ml,Beauty,2,24.29,EUR,BG,2026-09-03,test order
+ORD14718,20,internal.tester20@aqurate.ai,2026-05-10T20:54:08,test,marketplace,SKU-BE-002,Hair Dryer Ionic 2200W,Beauty,1,69.92,EUR,BG,2026-09-03,test order
+ORD14841,291,internal.tester291@aqurate.ai,1779836608,test,web,SKU-BK-002,The Pragmatic Programmer,Books,1,44.73,EUR,RO,2026-08-27,test order
+ORD14866,20,internal.tester20@aqurate.ai,2026-01-01T00:32:35,test,mobile_app,SKU-BK-002,The Pragmatic Programmer,Books,2,48.1,EUR,DE,2026-08-23,test order
+ORD14977,1837,internal.tester1837@aqurate.ai,2026-03-14T08:52:55,test,mobile_app,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,36.58,RON,BG,2026-08-25,test order
+ORD15076,125,internal.tester125@aqurate.ai,1772188338,test,marketplace,SKU-EL-004,4K Action Camera,Electronics,1,180.28,RON,BG,2026-08-27,test order
+ORD15102,20,internal.tester20@aqurate.ai,2026-06-21T20:38:35,test,web,SKU-EL-001,Wireless Earbuds X2,Electronics,2,82.57,RON,BG,2026-08-23,test order
+ORD15102,20,internal.tester20@aqurate.ai,2026-06-21T20:38:35,test,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,121.01,RON,BG,2026-08-23,test order
+ORD15155,1808,internal.tester1808@aqurate.ai,1771162882,test,web,SKU-BK-001,Atomic Habits (RO ed.),Books,1,21.2,EUR,RO,2026-08-28,test order
+ORD15155,1808,internal.tester1808@aqurate.ai,1771162882,test,web,SKU-EL-004,4K Action Camera,Electronics,1,187.26,EUR,RO,2026-08-28,test order
+ORD15397,395,internal.tester395@aqurate.ai,03/01/2026 22:18,test,mobile_app,SKU-BK-001,Atomic Habits (RO ed.),Books,1,19.44,EUR,BG,2026-09-02,test order
+ORD15397,395,internal.tester395@aqurate.ai,03/01/2026 22:18,test,mobile_app,SKU-EL-001,Wireless Earbuds X2,Electronics,1,78.67,EUR,BG,2026-09-02,test order
+ORD15558,20,internal.tester20@aqurate.ai,2026-06-19T13:36:54,test,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,2,174.56,EUR,DE,2026-09-02,test order
+ORD15610,298,internal.tester298@aqurate.ai,01/03/2026 05:04,test,marketplace,SKU-HK-002,Non-stick Frying Pan 28cm,Home & Kitchen,2,27.88,EUR,RO,2026-09-02,test order
+ORD15649,369,internal.tester369@aqurate.ai,2026-02-08T05:33:03,test,web,SKU-EL-003,Bluetooth Speaker Mini,Electronics,2,44.67,EUR,BG,2026-09-01,test order
+ORD15765,685,internal.tester685@aqurate.ai,30/03/2026 09:31,test,marketplace,SKU-BK-002,The Pragmatic Programmer,Books,1,40.92,EUR,RO,2026-08-29,test order
+ORD15923,20,internal.tester20@aqurate.ai,1778136010,test,mobile_app,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,35.3,RON,RO,2026-08-30,test order
+ORD15973,685,internal.tester685@aqurate.ai,08/01/2026 02:12,test,web,SKU-EL-004,4K Action Camera,Electronics,3,170.98,EUR,RO,2026-08-23,test order
+ORD10516,91,customer91@example.com,1780136222,completed,web,SKU-EL-001,Wireless Earbuds X2,Electronics,1,999999,EUR,BG,2026-08-26,placeholder price
+ORD10723,55,customer55@example.com,2026-02-06T05:05:33,completed,mobile_app,SKU-FA-003,Running Shoes Pro,Fashion,1,999999,RON,DE,2026-08-24,placeholder price
+ORD10976,455,customer455@example.com,01/05/2026 12:02,completed,mobile_app,SKU-FA-003,Running Shoes Pro,Fashion,1,999999,EUR,RO,2026-08-27,placeholder price
+ORD11416,638,customer638@example.com,2026-02-19T16:10:26,completed,web,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,999999,RON,RO,2026-08-24,placeholder price
+ORD12536,573,customer573@example.com,2026-05-23T21:54:58,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,999999,RON,RO,2026-08-25,placeholder price
+ORD12843,1248,customer1248@example.com,27/02/2026 23:14,completed,marketplace,SKU-BK-002,The Pragmatic Programmer,Books,1,999999,EUR,DE,2026-08-29,placeholder price
+ORD12890,215,customer215@example.com,2026-05-30T10:28:26,completed,mobile_app,SKU-EL-004,4K Action Camera,Electronics,1,999999,EUR,RO,2026-08-24,placeholder price
+ORD13349,1130,customer1130@example.com,2026-06-04T21:27:18,completed,marketplace,SKU-SP-002,Adjustable Dumbbell Set,Sports,1,999999,EUR,RO,2026-08-23,placeholder price
+ORD13702,831,customer831@example.com,1770547905,completed,mobile_app,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,999999,EUR,HU,2026-08-25,placeholder price
+ORD14118,1333,customer1333@example.com,27/02/2026 08:39,completed,web,SKU-HK-003,Air Fryer 5L,Home & Kitchen,1,999999,RON,HU,2026-08-31,placeholder price
+ORD14463,957,customer957@example.com,13/02/2026 17:55,completed,web,SKU-EL-002,USB-C Fast Charger 65W,Electronics,1,999999,EUR,RO,2026-08-23,placeholder price
+ORD15451,41,customer41@example.com,12/06/2026 01:10,completed,marketplace,SKU-BK-001,Atomic Habits (RO ed.),Books,1,999999,EUR,DE,2026-08-25,placeholder price
+ORD15482,531,customer531@example.com,2026-05-19T20:00:04,completed,web,SKU-BE-001,Vitamin C Serum 30ml,Beauty,2,999999,RON,DE,2026-09-02,placeholder price
