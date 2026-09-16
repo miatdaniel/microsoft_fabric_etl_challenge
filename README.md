@@ -1,4 +1,4 @@
-#Challenge
+# Challenge
 
 An end-to-end ETL pipeline built on **Microsoft Fabric**: pull orders from an API, clean them, pull daily FX rates, convert to EUR, and produce two reporting tables — refreshed daily.
 
