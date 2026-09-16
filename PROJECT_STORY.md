@@ -1,4 +1,4 @@
-# Aqurate — Junior Data Engineer Challenge — "Making the Pipeline — Behind the scenes"
+# Challenge — "Making the Pipeline — Behind the scenes"
 
 *A walkthrough of the whole build*
 
